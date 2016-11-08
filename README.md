@@ -1,3 +1,12 @@
+# Kube Website
+This is the website for the kube project.
+It's based on jekyll and has the following dependencies (installed with "gem install"):
+* jemoji
+* bundler
+* jekyll-feed
+* jekyll-seo-tag
+* jekyll-sitemap
+
 # Forty - Jekyll Theme
 
 A Jekyll version of the "Forty" theme by [HTML5 UP](https://html5up.net/).  
