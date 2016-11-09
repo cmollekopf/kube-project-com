@@ -1,11 +1,10 @@
 ---
 layout: post
 title: Join Kube!
-description:
 nav-menu: yes
 ---
 
-There is a wealth of opportunities to take part in Kube as a project and as a dedicated Open Source project we intend to give people in the wider open source community, developers and testers, the chance to work with us to improve the state of communication and collaboration in Open Source. For testers, the chance to have early access to the project and test its limits and for developers the challenge that an application the size and breadth of Kube can bring. 
+There is a wealth of opportunities to take part in Kube as a project and as a dedicated Open Source project we intend to give people in the wider open source community, developers and testers, the chance to work with us to improve the state of communication and collaboration in Open Source. For testers, the chance to have early access to the project and test its limits and for developers the challenge that an application the size and breadth of Kube can bring.
 In this section you can find further information about Kube's technical aspects and find promising areas to work with.
 
 ## For Testers

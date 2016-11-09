@@ -3,7 +3,6 @@ layout: landing
 title: Home
 landing-title: Kube
 description: A description that is not shown anywhere.
-image: assets/images/pic07.jpg
 nav-menu: no
 ---
 
@@ -27,6 +26,9 @@ nav-menu: no
 
 <section id="one">
 	<div class="inner">
+        <span class="image">
+                <img src="assets/images/kube_logo.svg" alt="" />
+        </span>
         <p>"Kube is a modern communication and collaboration client built with QtQuick on top of a high performance, low resource usage core. It provides online and offline access to all your mail, contacts, calendars, notes, todo's and more.  With a strong focus on usability, the team works with designers and UX experts from the ground up, to build a product that is not only visually appealing but also a joy to use."</p>
 
         <p>We are an active project spearheaded by Kolab Systems in collaboration with the KDE community currently in early development. We will initially focus on email only to ensure that the core features of the application are in place before going forward. Our projection is that by spring 2017 we will have reached alpha-state and as an open source project we want to ensure that developers interested in creating a collaboration and communication client have full access and possibility to be a part of it.</p>
@@ -41,7 +43,7 @@ nav-menu: no
 <section id="two" class="spotlights">
 	<section>
 		<a href="features.html" class="image">
-            <img src="https://source.unsplash.com/BckPaTv1RZ8/1600x900" alt="" data-position="center center" />
+            <img src="assets/images/people.jpg" alt="" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -57,7 +59,7 @@ nav-menu: no
 	</section>
 	<section>
 		<a href="join.html" class="image">
-            <img src="https://source.unsplash.com/BckPaTv1RZ8/1600x900" alt="" data-position="center center" />
+            <img src="assets/images/pens.jpg" alt="" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">
