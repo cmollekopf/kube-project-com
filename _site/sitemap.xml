@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/kube/2016/11/07/new-website.html</loc>
+<loc>https://kube.kde.org/2016/11/07/new-website.html</loc>
 <lastmod>2016-11-07T17:07:43+01:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/kube/2013/07/12/external-posts-in-jekyll.html</loc>
+<loc>https://kube.kde.org/2013/07/12/external-posts-in-jekyll.html</loc>
 <lastmod>2013-07-12T00:00:00+02:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/kube/features.html</loc>
+<loc>https://kube.kde.org/features.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/kube/</loc>
+<loc>https://kube.kde.org/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/kube/join.html</loc>
+<loc>https://kube.kde.org/join.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/kube/news.html</loc>
+<loc>https://kube.kde.org/news.html</loc>
 </url>
 </urlset>

@@ -8,17 +8,17 @@
 # Site settings
 title-bold: Kube
 title-normal: A modern communication and collaboration client.
-email:
+# email:
 description: A modern communication and collaboration client.
-baseurl: "/kube" # the subpath of your site, e.g. /blog
+# baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://kube.kde.org" # the base hostname & protocol for your site
-author: 
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
-country: United States of America
-phone: (716) 555-5555
+author: The Kube Team
+# street_address: 1234 Somewhere Road
+# city: Nashville
+# state: TN
+# zip_code: 55555
+# country: United States of America
+# phone: (716) 555-5555
 
 # Plugins
 gems:
