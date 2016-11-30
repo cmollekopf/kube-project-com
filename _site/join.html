@@ -114,31 +114,75 @@
 In this section you can find further information about Kube’s technical aspects and find promising areas to work with.</p>
 
 <h2 id="for-testers">For Testers</h2>
-<p>Like any project, testing is critical and one way to participate in the project is to install and try the early version of Kube. [How to install a test version.]
-You can try the latest development version using one of the following methods:</p>
-<ul>
-  <li>Install the flatpak [Link to page explaining how that works exactly].</li>
-  <li>Install a package from the obs [Link to the kolab obs].</li>
-  <li>Build from source [Link to build instructions in kube docs.]</li>
-</ul>
+<p>Like any project, testing is critical and one way to participate in the project is to install and try the early version of Kube.</p>
 
-<p>What to test, how to report the findings. (How to create a ticket in Phabricator) - Link to Phabricator (CHECK HOW IT WORKS)</p>
+<p>Unfortunately we don’t have a testable version ready yet. We’re working on a <a href="https://www.flatpak.org">flatpak</a> nightly, as well as regular package builds from an <a href="https://www.openbuildservice.org">OBS</a> instance (Regular users will of course be able to install Kube from their favorite distribution eventually).</p>
+
+<!--
+[How to install a test version.]
+You can try the latest development version using one of the following methods:
+* Install the flatpak [Link to page explaining how that works exactly].
+* Install a package from the obs [Link to the kolab obs].
+* Build from source [Link to build instructions in kube docs.]
+
+What to test, how to report the findings. (How to create a ticket in Phabricator) - Link to Phabricator (CHECK HOW IT WORKS)
+-->
 
 <h2 id="for-developers">For Developers</h2>
-<p>Technical information, why its so awesome. Ways to contribute. Documentation. Conctact paths to devs.</p>
+<!--
+Technical information, why its so awesome. Ways to contribute. Documentation. Conctact paths to devs.
+-->
+<p>While Kube builds on a lot of experience from KDEPIM Kontact, it is in many ways a fresh start that allowed us to get rid of the cruft and work with cutting edge technologies. We’re trying to reuse what we can and not unnecessarily rebuild things that are already existing, but we’re also comitted to only build on things we believe are stable enough and maintainable so we have a solid foundation.</p>
 
-<p>Documentation:</p>
+<p>Kube (and the underlying Sink) are primarily written in modern C++ and Qt, with QtQuick used for the UID.</p>
+
+<h3 id="qtquick">QtQuick</h3>
+<p>The UI is completely written in QtQuick, which gives us not only a clean separation between UI and core, but also allows us to write different UI’s for different formfactors in the future.
+QtQuick also massively reduces the amount of code we need write and maintain compared to a tarditional QWidget based interface.</p>
+
+<h3 id="components">Components</h3>
+<p>The Kube UI is split up into components, that can then be reused in various places. Since each component is self-contained and installed as a <a href="https://api.kde.org/frameworks/kpackage/html/namespaceKPackage.html">KPackage</a>, these components can even be used from outside the application.</p>
+
+<p>This would i.e. a clock widget on the desktop allow to directly display the Kube Calendar (which we have yet to write), without writing any UI code and with the component providing full functionality.</p>
+
+<h3 id="storage">Storage</h3>
+<p>As primary storage we’re using the <a href="https://symas.com/products/lightning-memory-mapped-database/">LMDB</a> memory-mapped key-value store.
+It fits our bill nicely because it supports multi-process, has superb read-performance while maintaining a good write-performance as well.
+Because the storage is multi-process the clients can read directly from disk resulting in lightning fast startup times.</p>
+
+<p>To structure the values we combine the key-value store with <a href="https://google.github.io/flatbuffers/">flatbuffers</a>, allowing us to serialize/deserialize C++ classes to a memory region without any parsing involved. flatbuffers generates a C++ class from a schema that allows us then to access properties within the value in a safe and efficient way. Because LMDB values are memory-regions within a memory-mapped file, this allows us to read individual properties that are stored in the database without any copying at all.</p>
+
+<p>For fulltext indexing we’re using <a href="https://xapian.org">Xapian</a>.</p>
+
+<h2 id="documentation">Documentation</h2>
+<p>Developer targeted documentation that is built directly from the docs/ subdirectory of the git repository:</p>
 <ul>
   <li><a href="http://kube.readthedocs.io/en/latest/">Kube Documentation</a></li>
   <li><a href="http://kube-sink.readthedocs.io/en/latest/">Sink Documentation</a></li>
 </ul>
 
-<p>Contact Paths:</p>
+<h2 id="contact-paths">Contact Paths</h2>
+<p>Kube is developed within the kdepim community and we thus also use the kde-pim mailing list.
+All planning and issue tracking is done on the kde phabricator instance, so that’s a good starting point to familiarize yourself with the current development version.</p>
+
 <ul>
   <li><a href="kde-pim@kde.org">PIM mailing list</a></li>
   <li><a href="https://phabricator.kde.org/tag/kube/">Kube Phabricator</a></li>
   <li><a href="https://phabricator.kde.org/tag/sink/">Sink Phabricator</a></li>
+  <li><a href="https://phabricator.kde.org/project/board/173/">Junior Jobs</a></li>
 </ul>
+
+<h2 id="source">Source</h2>
+<ul>
+  <li><a href="https://phabricator.kde.org/source/kube/browse/develop/">Kube Repository</a>: git://anongit.kde.org/kube</li>
+  <li><a href="https://phabricator.kde.org/source/kube/browse/develop/">Sink Repository</a>: git://anongit.kde.org/sink</li>
+  <li><a href="git://anongit.kde.org/flatpak-kde-applications">Flatpak source</a></li>
+</ul>
+
+<h2 id="building">Building</h2>
+<p>We’re using a docker environment to develop to ensure everyone works against the same environment. More information about that can be found in the <a href="http://kube-sink.readthedocs.io/en/latest/building/">Sink Documentation</a>.</p>
+
+<p>Nothing keeps you from just building everything natively though.</p>
 </p>
 	</div>
 </section>
