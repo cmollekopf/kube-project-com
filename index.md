@@ -78,7 +78,7 @@ nav-menu: no
 			<h2>Latest news</h2>
 		</header>
         <p>
-        Posts from the community:
+        Blog Posts from the community:
         <br/> <a href="https://cmollekopf.wordpress.com/tag/kube/">by Christian Mollekopf</a>
         <br/> <a href="https://mbohlender.wordpress.com">by Michael Bohlender</a>
         </p>
