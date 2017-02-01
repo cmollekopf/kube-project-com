@@ -71,3 +71,6 @@ All planning and issue tracking is done on the kde phabricator instance, so that
 We're using a docker environment to develop to ensure everyone works against the same environment. More information about that can be found in the [Sink Documentation](http://kube-sink.readthedocs.io/en/latest/building/).
 
 Nothing keeps you from just building everything natively though.
+
+## Other Resources
+* [Presentation during the Kolab Summit in 2016 by Christian Mollekopf](https://www.youtube.com/watch?v=KlZWZNtEptk)
