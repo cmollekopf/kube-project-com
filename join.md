@@ -67,6 +67,8 @@ Developer targeted documentation that is built directly from the docs/ subdirect
 Kube is developed within the kdepim community and we thus also use the kde-pim mailing list.
 All planning and issue tracking is done on the kde phabricator instance, so that's a good starting point to familiarize yourself with the current development version.
 
+The development team has weekly online meetings, so if you'd like to get involved there please write a mail to the mailinglist and we'll invite you (It's also fine if you would just like to join for a couple of meetings and see how things go, no pressure ;-) ).
+
 * [PIM mailing list](kde-pim@kde.org)
 * [Kube Phabricator](https://phabricator.kde.org/tag/kube/)
 * [Sink Phabricator](https://phabricator.kde.org/tag/sink/)
