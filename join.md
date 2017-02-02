@@ -10,15 +10,25 @@ In this section you can find further information about Kube's technical aspects 
 ## For Testers
 Like any project, testing is critical and one way to participate in the project is to install and try the early version of Kube.
 
-Unfortunately we don't have a testable version ready yet. We're working on a [flatpak](https://www.flatpak.org) nightly, as well as regular package builds from an [OBS](https://www.openbuildservice.org) instance (Regular users will of course be able to install Kube from their favorite distribution eventually).
+Unfortunately we don't have regular builds ready yet. We're working on a [flatpak](https://www.flatpak.org) nightly, as well as regular package builds from an [OBS](https://www.openbuildservice.org) instance (Regular users will of course be able to install Kube from their favorite distribution eventually). We do have some experimental builds available though.
+
+### How to install a test version
+You can try the latest development version using one of the following methods.
+Warning!: There is currently no official release and Kube is under heavy development. While it shouldn't delete all your data,
+it's entirely possible it will, so beware. We also do not offer any kind of upgrade path, so you may well have to delete all your local data from one update to another. However, you're very welcome to follow the development process this way if you like to do so.
+
+* Build from source [Link to build instructions in kube docs.]
+    * Using the [Docker testenvironment](http://kube-sink.readthedocs.io/en/latest/building/)
+    * Using kdesrcbuild: [kdesrc-buildrc](https://github.com/cmollekopf/docker/blob/master/kdesrcbuild/kube/kdesrc-buildrc)
+    * Figuring it out yourself (use the develop branch): [Kube git repository](git://anongit.kde.org/kube), [Sink git repository](git://anongit.kde.org/sink)
+* Install from copr on Fedora 25:
+```
+dnf copr enable kanarip/kube
+dnf install kube libotp
+```
+* Build the flatpak: [KDE flatpak applications](git@git.kde.org:flatpak-kde-applications).
 
 <!--
-[How to install a test version.]
-You can try the latest development version using one of the following methods:
-* Install the flatpak [Link to page explaining how that works exactly].
-* Install a package from the obs [Link to the kolab obs].
-* Build from source [Link to build instructions in kube docs.]
-
 What to test, how to report the findings. (How to create a ticket in Phabricator) - Link to Phabricator (CHECK HOW IT WORKS)
 -->
 
@@ -28,7 +38,7 @@ Technical information, why its so awesome. Ways to contribute. Documentation. Co
 -->
 While Kube builds on a lot of experience from KDEPIM Kontact, it is in many ways a fresh start that allowed us to get rid of the cruft and work with cutting edge technologies. We're trying to reuse what we can and not unnecessarily rebuild things that are already existing, but we're also comitted to only build on things we believe are stable enough and maintainable so we have a solid foundation.
 
-Kube (and the underlying Sink) are primarily written in modern C++ and Qt, with QtQuick used for the UID.
+Kube (and the underlying Sink) are primarily written in modern C++ and Qt, with QtQuick used for the UI.
 
 ### QtQuick
 The UI is completely written in QtQuick, which gives us not only a clean separation between UI and core, but also allows us to write different UI's for different formfactors in the future.
