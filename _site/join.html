@@ -170,6 +170,31 @@ Because the storage is multi-process the clients can read directly from disk res
 
 <p>For fulltext indexing we’re using <a href="https://xapian.org">Xapian</a>.</p>
 
+<h2 id="for-designers">For Designers</h2>
+
+<p>When you are reading this, you are in fact doing one of the actions that we have based our design of Kube on. You are sorting information from left-to-right, letting your eyes fall from the top left of the text, to the bottom right. 
+While scanning over this page you have searched for key words and phrases, large portions of text or images that you automatically focused on. Not once during this time you have taken a deep interest in the margins of the webpage or searched for further information hidden at the bottom of the page in the license and creators reference.</p>
+
+<p>You‘re reading.</p>
+
+<p>Now this isn‘t news to you of course, we all know this, but what we asked ourselves when we started designing Kube: Why is this so uncommon in communication platforms design? Why is the text, the reading of text communication or the creating of text often hidden away behind clutter and secondary actions?
+We wanted to focus on strict facts about how we humans handle large amount of information, how we scan for information on a page, how we rank the information based on assumed importance, and how we feel comfortable in consuming or creating text.</p>
+
+<p>We do this by adopting a radically practical approach to the entire design. By defining what the actual Content is, and what the Key Actions are.</p>
+
+<p>By focusing directly on the stated Key Action of the application, in the current state email conversations, we can judge any suggestion of added features or design edits by the value they bring to the key action. The Key Action is directly connected to the stated Content, the object which is displayed, edited or created within the application.</p>
+
+<p>In Kube‘s current release, we know that the content is the reading and writing of email communication. From that we can not only discern how much screen real estate is reserved for what part of the application but also look at placement for UI elements.
+Moving deeper into the design process, we looked how we traditionally handle reading and writing text and made a direct assumption: we don‘t need to invent a new way of reading and writing when one already exists. Instead of trying to force the user to consume content in a new interesting way, we design for how the user already handles the content.</p>
+
+<p>During the entirety of the design process we have relied on fast changes and iterative design. Group comments and suggestions are quickly taken on board, and changes presented to the group for further discussion. 
+By creating this space for direct and fast changes during the design process we have avoided the problem of reserving room for edits only in between releases. That way, instead of seeing design as purely a customer-reaction based process we allow for larger changes based on in-team discussions and practical issues. 
+As we release Kube to the public it will be interesting to take these community aspects of design and see how they can be used to improve impromptu testing and client feedback.</p>
+
+<p>One unique part of this iterative design has been a process we call [quotation mark] Pixel Punching [quotation mark] where a designer and a programmer work together during a meeting focused on one or more specific issues. 
+Since edits and changes in QML and Qt are comparatively easy to do, these changes can be implemented, tested and edited during the meeting and then presented to the rest of the group for feedback. 
+During early stages the focus can be on mockups alone, and having two people of different skill sets focusing on the same task have proven to be not only effective but a remarkably stable process  avoiding the most common pitfalls in the interaction between designer and programmer.</p>
+
 <h2 id="documentation">Documentation</h2>
 <p>Developer targeted documentation that is built directly from the docs/ subdirectory of the git repository:</p>
 <ul>
