@@ -7,7 +7,7 @@ nav-menu: yes
 Nobody is happy with "groupware" applications, and many have fled to web applications as a result even though they offer a fraction of the possibilities a native application does and often means leaving your data in someone else's hands. Despite this low satisfaction, a modern alternative has yet to be offered.
 This is the purpose of Kube: beautiful, modern communication in a reliable, high-performance native application for your desktop, laptop and mobile devices.
 
-![Kube](assets/images/kube_main.jpg)
+![Kube](assets/images/kube_main_cropped.jpg)
 
 Kube is in early development but our goals are clear. To create a stable, understandable and effective communication and collaboration platform for end users and project managers alike. Our key-stone feature of the application is the email client, and that is our initial focus.
 
