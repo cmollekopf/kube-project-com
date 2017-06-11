@@ -23,8 +23,8 @@ it's entirely possible it will, so beware. We also do not offer any kind of upgr
     * Figuring it out yourself (use the develop branch): [Kube git repository](git://anongit.kde.org/kube), [Sink git repository](git://anongit.kde.org/sink)
 * Install from copr on Fedora 25:
 ```
-dnf copr enable kanarip/kube
-dnf install kube libotp
+dnf copr enable cmollekopf/kube
+dnf install kube
 ```
 * Build the flatpak: [KDE flatpak applications](git@git.kde.org:flatpak-kde-applications).
 
