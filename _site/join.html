@@ -124,20 +124,25 @@ Warning!: There is currently no official release and Kube is under heavy develop
 it’s entirely possible it will, so beware. We also do not offer any kind of upgrade path, so you may well have to delete all your local data from one update to another. However, you’re very welcome to follow the development process this way if you like to do so.</p>
 
 <ul>
-  <li>Build from source [Link to build instructions in kube docs.]
+  <li>Build from source:
     <ul>
       <li>Using the <a href="http://kube-sink.readthedocs.io/en/latest/building/">Docker testenvironment</a></li>
       <li>Using kdesrcbuild: <a href="https://github.com/cmollekopf/docker/blob/master/kdesrcbuild/kube/kdesrc-buildrc">kdesrc-buildrc</a></li>
       <li>Figuring it out yourself (use the develop branch): <a href="git://anongit.kde.org/kube">Kube git repository</a>, <a href="git://anongit.kde.org/sink">Sink git repository</a></li>
     </ul>
   </li>
-  <li>Install from copr on Fedora 25:
+  <li>Install from <a href="copr.fedorainfracloud.org/coprs/cmollekopf/kube/">copr</a> on Fedora 25:
     <div class="highlighter-rouge"><pre class="highlight"><code>dnf copr enable cmollekopf/kube
 dnf install kube
 </code></pre>
     </div>
   </li>
   <li>Build the flatpak: <a href="git@git.kde.org:flatpak-kde-applications">KDE flatpak applications</a>.</li>
+  <li>Install from aur on Archlinux:
+    <div class="highlighter-rouge"><pre class="highlight"><code>yaourt -S kube-develop
+</code></pre>
+    </div>
+  </li>
 </ul>
 
 <!--
