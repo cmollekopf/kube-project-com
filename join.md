@@ -17,16 +17,20 @@ You can try the latest development version using one of the following methods.
 Warning!: There is currently no official release and Kube is under heavy development. While it shouldn't delete all your data,
 it's entirely possible it will, so beware. We also do not offer any kind of upgrade path, so you may well have to delete all your local data from one update to another. However, you're very welcome to follow the development process this way if you like to do so.
 
-* Build from source [Link to build instructions in kube docs.]
+* Build from source:
     * Using the [Docker testenvironment](http://kube-sink.readthedocs.io/en/latest/building/)
     * Using kdesrcbuild: [kdesrc-buildrc](https://github.com/cmollekopf/docker/blob/master/kdesrcbuild/kube/kdesrc-buildrc)
     * Figuring it out yourself (use the develop branch): [Kube git repository](git://anongit.kde.org/kube), [Sink git repository](git://anongit.kde.org/sink)
-* Install from copr on Fedora 25:
+* Install from [copr](copr.fedorainfracloud.org/coprs/cmollekopf/kube/) on Fedora 25:
 ```
 dnf copr enable cmollekopf/kube
 dnf install kube
 ```
 * Build the flatpak: [KDE flatpak applications](git@git.kde.org:flatpak-kde-applications).
+* Install from aur on Archlinux:
+```
+yaourt -S kube-develop
+```
 
 <!--
 What to test, how to report the findings. (How to create a ticket in Phabricator) - Link to Phabricator (CHECK HOW IT WORKS)
