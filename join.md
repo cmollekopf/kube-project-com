@@ -31,6 +31,10 @@ dnf install kube
 ```
 yaourt -S kube-develop
 ```
+* Install with emerge on Gentoo:
+```
+emerge -qa kube
+```
 
 <!--
 What to test, how to report the findings. (How to create a ticket in Phabricator) - Link to Phabricator (CHECK HOW IT WORKS)
