@@ -27,6 +27,14 @@ dnf copr enable cmollekopf/kube
 dnf install kube
 ```
 * Build the flatpak: [KDE flatpak applications](git@git.kde.org:flatpak-kde-applications).
+* Install the prebuilt flatpak:
+```
+wget http://distribute.kde.org/kdeflatpak.asc
+flatpak --user remote-add kde http://distribute.kde.org/flatpak-testing/ --gpg-import=kdeflatpak.asc --no-gpg-verify
+flatpak --user install kde org.kde.Platform
+flatpak --user install kde org.kde.kube
+flatpak run --devel org.kde.kube
+```
 * Install from aur on [Archlinux](https://aur.archlinux.org/packages/kube-develop/):
 ```
 yaourt -S kube-develop
