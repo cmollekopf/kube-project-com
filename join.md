@@ -29,10 +29,7 @@ dnf install kube
 * Build the flatpak: [KDE flatpak applications](git@git.kde.org:flatpak-kde-applications).
 * Install the prebuilt flatpak:
 ```
-wget http://distribute.kde.org/kdeflatpak.asc
-flatpak --user remote-add kde http://distribute.kde.org/flatpak-testing/ --gpg-import=kdeflatpak.asc --no-gpg-verify
-flatpak --user install kde org.kde.Platform
-flatpak --user install kde org.kde.kube
+flatpak --user install --from https://kube.kde.org/files/org.kde.kube.flatpakref
 flatpak run --devel org.kde.kube
 ```
 * Install from aur on [Archlinux](https://aur.archlinux.org/packages/kube-develop/):

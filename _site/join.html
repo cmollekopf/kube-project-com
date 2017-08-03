@@ -139,10 +139,7 @@ dnf install kube
   </li>
   <li>Build the flatpak: <a href="git@git.kde.org:flatpak-kde-applications">KDE flatpak applications</a>.</li>
   <li>Install the prebuilt flatpak:
-    <div class="highlighter-rouge"><pre class="highlight"><code>wget http://distribute.kde.org/kdeflatpak.asc
-flatpak --user remote-add kde http://distribute.kde.org/flatpak-testing/ --gpg-import=kdeflatpak.asc --no-gpg-verify
-flatpak --user install kde org.kde.Platform
-flatpak --user install kde org.kde.kube
+    <div class="highlighter-rouge"><pre class="highlight"><code>flatpak --user install --from https://kube.kde.org/files/org.kde.kube.flatpakref
 flatpak run --devel org.kde.kube
 </code></pre>
     </div>
