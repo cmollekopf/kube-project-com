@@ -30,7 +30,7 @@ dnf install kube
 * Install the prebuilt flatpak:
 ```
 flatpak --user install --from https://kube.kde.org/files/org.kde.kube.flatpakref
-flatpak run --devel org.kde.kube
+flatpak run org.kde.kube
 ```
 * Install from aur on [Archlinux](https://aur.archlinux.org/packages/kube-develop/):
 ```
