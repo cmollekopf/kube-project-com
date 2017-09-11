@@ -124,3 +124,4 @@ Nothing keeps you from just building everything natively though.
 
 ## Other Resources
 * [Presentation during the Kolab Summit in 2016 by Christian Mollekopf](https://www.youtube.com/watch?v=KlZWZNtEptk)
+* [Presentation during FOSDEM in 2017 by Christian Mollekopf](https://www.youtube.com/watch?v=FJW06CZJyUY)
