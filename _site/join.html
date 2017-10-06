@@ -8,9 +8,11 @@
 
 <head>
 	<title></title>
-	<!-- Begin Jekyll SEO tag v2.0.0 -->
+	<!-- Begin Jekyll SEO tag v2.3.0 -->
 <title>Join Kube!</title>
 <meta property="og:title" content="Join Kube!" />
+<meta name="author" content="The Kube Team" />
+<meta property="og:locale" content="en_US" />
 <meta name="description" content="A modern communication and collaboration client." />
 <meta property="og:description" content="A modern communication and collaboration client." />
 <link rel="canonical" href="https://kube.kde.org/join.html" />
@@ -19,15 +21,9 @@
 <meta name="twitter:site" content="@" />
 <meta name="twitter:creator" content="@The Kube Team" />
 <script type="application/ld+json">
-  {
-    "@context": "http://schema.org",
-    "@type": "WebPage",
-    "headline": "Join Kube!",
-    "description": "A modern communication and collaboration client.",
-    "url": "https://kube.kde.org/join.html"
-  }
-</script>
+{"name":null,"description":"A modern communication and collaboration client.","author":{"@type":"Person","name":"The Kube Team"},"@type":"WebPage","url":"https://kube.kde.org/join.html","publisher":null,"image":null,"headline":"Join Kube!","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
+
 	<link type="application/atom+xml" rel="alternate" href="https://kube.kde.org/feed.xml" />
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -68,6 +64,8 @@
 		
 		    
 		
+		    
+		
 		
 		    
 		        <li><a href="/features.html">Kube Project Features and Goals</a></li>
@@ -84,11 +82,15 @@
 		    
 		
 		    
-		        <li><a href="/feed.xml"></a></li>
+		        <li><a href="/sitemap.xml"></a></li>
 		    
 		
 		    
-		        <li><a href="/feed.xslt.xml"></a></li>
+		        <li><a href="/robots.txt"></a></li>
+		    
+		
+		    
+		        <li><a href="/feed.xml"></a></li>
 		    
 		
 	</ul>
@@ -132,27 +134,28 @@ it’s entirely possible it will, so beware. We also do not offer any kind of up
     </ul>
   </li>
   <li>Install from <a href="copr.fedorainfracloud.org/coprs/cmollekopf/kube/">copr</a> on Fedora 25:
-    <div class="highlighter-rouge"><pre class="highlight"><code>dnf copr enable cmollekopf/kube
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnf copr enable cmollekopf/kube
 dnf install kube
-</code></pre>
-    </div>
+</code></pre></div>    </div>
   </li>
   <li>Build the flatpak: <a href="git@git.kde.org:flatpak-kde-applications">KDE flatpak applications</a>.</li>
   <li>Install the prebuilt flatpak:
-    <div class="highlighter-rouge"><pre class="highlight"><code>flatpak --user install --from https://kube.kde.org/files/org.kde.kube.flatpakref
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>flatpak -y --user install --from https://kube.kde.org/files/org.kde.kube.flatpakref
 flatpak run org.kde.kube
-</code></pre>
-    </div>
+</code></pre></div>    </div>
+  </li>
+  <li>Install the Kolab Now edition (Kolab Now exclusive) with the <a href="https://blogs.kolabnow.com/2017/09/27/kube-for-kolab-now">Kolab Now flatpak</a>:
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>flatpak -y --user install --from https://kolabnow.com/kube/flatpak/com.kolabnow.kube.flatpakref
+flatpak run com.kolabnow.kube
+</code></pre></div>    </div>
   </li>
   <li>Install from aur on <a href="https://aur.archlinux.org/packages/kube-develop/">Archlinux</a>:
-    <div class="highlighter-rouge"><pre class="highlight"><code>yaourt -S kube-develop
-</code></pre>
-    </div>
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>yaourt -S kube-develop
+</code></pre></div>    </div>
   </li>
   <li>Install with emerge on Gentoo:
-    <div class="highlighter-rouge"><pre class="highlight"><code>emerge -qa kube
-</code></pre>
-    </div>
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>emerge -qa kube
+</code></pre></div>    </div>
   </li>
 </ul>
 

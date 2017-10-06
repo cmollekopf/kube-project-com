@@ -29,8 +29,13 @@ dnf install kube
 * Build the flatpak: [KDE flatpak applications](git@git.kde.org:flatpak-kde-applications).
 * Install the prebuilt flatpak:
 ```
-flatpak --user install --from https://kube.kde.org/files/org.kde.kube.flatpakref
+flatpak -y --user install --from https://kube.kde.org/files/org.kde.kube.flatpakref
 flatpak run org.kde.kube
+```
+* Install the Kolab Now edition (Kolab Now exclusive) with the [Kolab Now flatpak](https://blogs.kolabnow.com/2017/09/27/kube-for-kolab-now):
+```
+flatpak -y --user install --from https://kolabnow.com/kube/flatpak/com.kolabnow.kube.flatpakref
+flatpak run com.kolabnow.kube
 ```
 * Install from aur on [Archlinux](https://aur.archlinux.org/packages/kube-develop/):
 ```
