@@ -21,7 +21,7 @@ author: The Kube Team
 # phone: (716) 555-5555
 
 # Plugins
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-feed
