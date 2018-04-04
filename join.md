@@ -17,15 +17,7 @@ You can try the latest development version using one of the following methods.
 Warning!: There is currently no official release and Kube is under heavy development. While it shouldn't delete all your data,
 it's entirely possible it will, so beware. We also do not offer any kind of upgrade path, so you may well have to delete all your local data from one update to another. However, you're very welcome to follow the development process this way if you like to do so.
 
-* Build from source:
-    * Using the [Docker testenvironment](http://kube-sink.readthedocs.io/en/latest/building/)
-    * Using kdesrcbuild: [kdesrc-buildrc](https://github.com/cmollekopf/docker/blob/master/kdesrcbuild/kube/kdesrc-buildrc)
-    * Figuring it out yourself (use the develop branch): [Kube git repository](git://anongit.kde.org/kube), [Sink git repository](git://anongit.kde.org/sink)
-* Install from [copr](copr.fedorainfracloud.org/coprs/cmollekopf/kube/) on Fedora 25:
-```
-dnf copr enable cmollekopf/kube
-dnf install kube
-```
+* Build from source: [Instructions](http://kube.readthedocs.io/en/latest/setting-up-dev-env/)
 * Build the flatpak: [KDE flatpak applications](git@git.kde.org:flatpak-kde-applications).
 * Install the prebuilt flatpak:
 ```
@@ -45,6 +37,8 @@ yaourt -S kube-develop
 ```
 emerge -qa kube
 ```
+* [NIXOS overlay](https://github.com/cmollekopf/kube-nix.git)
+* Mac OS image: https://kube.kolab.org/kube/kube.dmg
 
 <!--
 What to test, how to report the findings. (How to create a ticket in Phabricator) - Link to Phabricator (CHECK HOW IT WORKS)
@@ -54,7 +48,7 @@ What to test, how to report the findings. (How to create a ticket in Phabricator
 <!--
 Technical information, why its so awesome. Ways to contribute. Documentation. Conctact paths to devs.
 -->
-While Kube builds on a lot of experience from KDEPIM Kontact, it is in many ways a fresh start that allowed us to get rid of the cruft and work with cutting edge technologies. We're trying to reuse what we can and not unnecessarily rebuild things that are already existing, but we're also comitted to only build on things we believe are stable enough and maintainable so we have a solid foundation.
+While Kube builds on a lot of experience from KDEPIM Kontact, it is a fresh start that allowed us to get rid of the cruft and work with cutting edge technologies. We're trying to reuse what we can and not unnecessarily rebuild things that are already existing, but we're also comitted to only build on things we believe are stable enough and maintainable so we have a solid foundation.
 
 Kube (and the underlying Sink) are primarily written in modern C++ and Qt, with QtQuick used for the UI.
 
