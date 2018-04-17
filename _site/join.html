@@ -8,8 +8,9 @@
 
 <head>
 	<title></title>
-	<!-- Begin Jekyll SEO tag v2.3.0 -->
+	<!-- Begin Jekyll SEO tag v2.4.0 -->
 <title>Join Kube!</title>
+<meta name="generator" content="Jekyll v3.7.3" />
 <meta property="og:title" content="Join Kube!" />
 <meta name="author" content="The Kube Team" />
 <meta property="og:locale" content="en_US" />
@@ -21,7 +22,7 @@
 <meta name="twitter:site" content="@" />
 <meta name="twitter:creator" content="@The Kube Team" />
 <script type="application/ld+json">
-{"name":null,"description":"A modern communication and collaboration client.","author":{"@type":"Person","name":"The Kube Team"},"@type":"WebPage","url":"https://kube.kde.org/join.html","publisher":null,"image":null,"headline":"Join Kube!","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+{"description":"A modern communication and collaboration client.","author":{"@type":"Person","name":"The Kube Team"},"@type":"WebPage","url":"https://kube.kde.org/join.html","headline":"Join Kube!","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 	<link type="application/atom+xml" rel="alternate" href="https://kube.kde.org/feed.xml" />
@@ -126,37 +127,32 @@ Warning!: There is currently no official release and Kube is under heavy develop
 it’s entirely possible it will, so beware. We also do not offer any kind of upgrade path, so you may well have to delete all your local data from one update to another. However, you’re very welcome to follow the development process this way if you like to do so.</p>
 
 <ul>
-  <li>Build from source:
-    <ul>
-      <li>Using the <a href="http://kube-sink.readthedocs.io/en/latest/building/">Docker testenvironment</a></li>
-      <li>Using kdesrcbuild: <a href="https://github.com/cmollekopf/docker/blob/master/kdesrcbuild/kube/kdesrc-buildrc">kdesrc-buildrc</a></li>
-      <li>Figuring it out yourself (use the develop branch): <a href="git://anongit.kde.org/kube">Kube git repository</a>, <a href="git://anongit.kde.org/sink">Sink git repository</a></li>
-    </ul>
-  </li>
-  <li>Install from <a href="copr.fedorainfracloud.org/coprs/cmollekopf/kube/">copr</a> on Fedora 25:
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnf copr enable cmollekopf/kube
-dnf install kube
-</code></pre></div>    </div>
-  </li>
+  <li>Build from source: <a href="http://kube.readthedocs.io/en/latest/setting-up-dev-env/">Instructions</a></li>
   <li>Build the flatpak: <a href="git@git.kde.org:flatpak-kde-applications">KDE flatpak applications</a>.</li>
   <li>Install the prebuilt flatpak:
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>flatpak -y --user install --from https://kube.kde.org/files/org.kde.kube.flatpakref
+    <div class="highlighter-rouge"><pre class="highlight"><code>flatpak -y --user install --from https://kube.kde.org/files/org.kde.kube.flatpakref
 flatpak run org.kde.kube
-</code></pre></div>    </div>
+</code></pre>
+    </div>
   </li>
   <li>Install the Kolab Now edition (Kolab Now exclusive) with the <a href="https://blogs.kolabnow.com/2017/09/27/kube-for-kolab-now">Kolab Now flatpak</a>:
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>flatpak -y --user install --from https://kolabnow.com/kube/flatpak/com.kolabnow.kube.flatpakref
+    <div class="highlighter-rouge"><pre class="highlight"><code>flatpak -y --user install --from https://kolabnow.com/kube/flatpak/com.kolabnow.kube.flatpakref
 flatpak run com.kolabnow.kube
-</code></pre></div>    </div>
+</code></pre>
+    </div>
   </li>
   <li>Install from aur on <a href="https://aur.archlinux.org/packages/kube-develop/">Archlinux</a>:
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>yaourt -S kube-develop
-</code></pre></div>    </div>
+    <div class="highlighter-rouge"><pre class="highlight"><code>yaourt -S kube-develop
+</code></pre>
+    </div>
   </li>
   <li>Install with emerge on Gentoo:
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>emerge -qa kube
-</code></pre></div>    </div>
+    <div class="highlighter-rouge"><pre class="highlight"><code>emerge -qa kube
+</code></pre>
+    </div>
   </li>
+  <li><a href="https://github.com/cmollekopf/kube-nix.git">NIXOS overlay</a></li>
+  <li>Mac OS image: https://kube.kolab.org/kube/kube.dmg</li>
 </ul>
 
 <!--
@@ -167,7 +163,7 @@ What to test, how to report the findings. (How to create a ticket in Phabricator
 <!--
 Technical information, why its so awesome. Ways to contribute. Documentation. Conctact paths to devs.
 -->
-<p>While Kube builds on a lot of experience from KDEPIM Kontact, it is in many ways a fresh start that allowed us to get rid of the cruft and work with cutting edge technologies. We’re trying to reuse what we can and not unnecessarily rebuild things that are already existing, but we’re also comitted to only build on things we believe are stable enough and maintainable so we have a solid foundation.</p>
+<p>While Kube builds on a lot of experience from KDEPIM Kontact, it is a fresh start that allowed us to get rid of the cruft and work with cutting edge technologies. We’re trying to reuse what we can and not unnecessarily rebuild things that are already existing, but we’re also comitted to only build on things we believe are stable enough and maintainable so we have a solid foundation.</p>
 
 <p>Kube (and the underlying Sink) are primarily written in modern C++ and Qt, with QtQuick used for the UI.</p>
 
