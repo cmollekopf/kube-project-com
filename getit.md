@@ -4,7 +4,6 @@ title: Get Kube!
 nav-menu: yes
 ---
 
-### How to install a test version
 Kube is available for a variety of platforms.
 
 * Flatpak:
@@ -24,6 +23,8 @@ emerge -qa kube
 * [Mac OS image](https://kube.kolab.org/kube/kube.dmg)
 
 ### Kube for Kolab Now
+
+Kube for Kolab Now offers you the simplest setup possible. Enter your credentials, done.
 
 * Install the Kolab Now edition (Kolab Now exclusive) with the [Kolab Now flatpak](https://blogs.kolabnow.com/2017/09/27/kube-for-kolab-now):
 ```
