@@ -16,7 +16,7 @@ Unfortunately we don't have regular builds ready yet. We're working on a [flatpa
 You can try the latest development version using one of the following methods.
 
 * Build from source: [Instructions](http://kube.readthedocs.io/en/latest/setting-up-dev-env/)
-* Build the flatpak: [KDE flatpak applications](https://phabricator.kde.org/source/kube/browse/develop/dist/flatpak/).
+* Build the flatpak: [Kube flatpak](https://phabricator.kde.org/source/kube/browse/develop/dist/flatpak/).
 * Install the prebuilt flatpak:
 ```
 flatpak -y --user install --from https://kube.kde.org/files/org.kde.kube.flatpakref
