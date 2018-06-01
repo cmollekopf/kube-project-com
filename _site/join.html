@@ -54,6 +54,8 @@
 		    
 		
 		    
+		
+		    
 		        <li><a href="/">Home</a></li>
 	    	
 		
@@ -70,6 +72,10 @@
 		
 		    
 		        <li><a href="/features.html">Kube Project Features and Goals</a></li>
+		    
+		
+		    
+		        <li><a href="/getit.html">Get Kube!</a></li>
 		    
 		
 		    
@@ -122,13 +128,11 @@ In this section you can find further information about Kube’s technical aspect
 <p>Unfortunately we don’t have regular builds ready yet. We’re working on a <a href="https://www.flatpak.org">flatpak</a> nightly, as well as regular package builds from an <a href="https://www.openbuildservice.org">OBS</a> instance (Regular users will of course be able to install Kube from their favorite distribution eventually). We do have some experimental builds available though.</p>
 
 <h3 id="how-to-install-a-test-version">How to install a test version</h3>
-<p>You can try the latest development version using one of the following methods.
-Warning!: There is currently no official release and Kube is under heavy development. While it shouldn’t delete all your data,
-it’s entirely possible it will, so beware. We also do not offer any kind of upgrade path, so you may well have to delete all your local data from one update to another. However, you’re very welcome to follow the development process this way if you like to do so.</p>
+<p>You can try the latest development version using one of the following methods.</p>
 
 <ul>
   <li>Build from source: <a href="http://kube.readthedocs.io/en/latest/setting-up-dev-env/">Instructions</a></li>
-  <li>Build the flatpak: <a href="git@git.kde.org:flatpak-kde-applications">KDE flatpak applications</a>.</li>
+  <li>Build the flatpak: <a href="https://phabricator.kde.org/source/kube/browse/develop/dist/flatpak/">KDE flatpak applications</a>.</li>
   <li>Install the prebuilt flatpak:
     <div class="highlighter-rouge"><pre class="highlight"><code>flatpak -y --user install --from https://kube.kde.org/files/org.kde.kube.flatpakref
 flatpak run org.kde.kube
@@ -141,8 +145,8 @@ flatpak run com.kolabnow.kube
 </code></pre>
     </div>
   </li>
-  <li>Install from aur on <a href="https://aur.archlinux.org/packages/kube-develop/">Archlinux</a>:
-    <div class="highlighter-rouge"><pre class="highlight"><code>yaourt -S kube-develop
+  <li>Install on <a href="https://www.archlinux.org/packages/community/x86_64/kube/">Archlinux</a>:
+    <div class="highlighter-rouge"><pre class="highlight"><code>yaourt -S kube
 </code></pre>
     </div>
   </li>
@@ -171,10 +175,9 @@ Technical information, why its so awesome. Ways to contribute. Documentation. Co
 <p>The UI is completely written in QtQuick, which gives us not only a clean separation between UI and core, but also allows us to write different UI’s for different formfactors in the future.
 QtQuick also massively reduces the amount of code we need write and maintain compared to a tarditional QWidget based interface.</p>
 
-<h3 id="components">Components</h3>
-<p>The Kube UI is split up into components, that can then be reused in various places. Since each component is self-contained and installed as a <a href="https://api.kde.org/frameworks/kpackage/html/namespaceKPackage.html">KPackage</a>, these components can even be used from outside the application.</p>
-
-<p>This would i.e. a clock widget on the desktop allow to directly display the Kube Calendar (which we have yet to write), without writing any UI code and with the component providing full functionality.</p>
+<h3 id="views">Views</h3>
+<p>The Kube UI is split up into views that each try to help with a particular workflow.
+See also https://phabricator.kde.org/T6029.</p>
 
 <h3 id="storage">Storage</h3>
 <p>As primary storage we’re using the <a href="https://symas.com/products/lightning-memory-mapped-database/">LMDB</a> memory-mapped key-value store.
@@ -233,8 +236,7 @@ All planning and issue tracking is done on the kde phabricator instance, so that
 <h2 id="source">Source</h2>
 <ul>
   <li><a href="https://phabricator.kde.org/source/kube/browse/develop/">Kube Repository</a>: git://anongit.kde.org/kube</li>
-  <li><a href="https://phabricator.kde.org/source/kube/browse/develop/">Sink Repository</a>: git://anongit.kde.org/sink</li>
-  <li><a href="git://anongit.kde.org/flatpak-kde-applications">Flatpak source</a></li>
+  <li><a href="https://phabricator.kde.org/source/sink/browse/develop/">Sink Repository</a>: git://anongit.kde.org/sink</li>
 </ul>
 
 <h2 id="building">Building</h2>

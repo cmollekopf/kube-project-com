@@ -14,11 +14,9 @@ Unfortunately we don't have regular builds ready yet. We're working on a [flatpa
 
 ### How to install a test version
 You can try the latest development version using one of the following methods.
-Warning!: There is currently no official release and Kube is under heavy development. While it shouldn't delete all your data,
-it's entirely possible it will, so beware. We also do not offer any kind of upgrade path, so you may well have to delete all your local data from one update to another. However, you're very welcome to follow the development process this way if you like to do so.
 
 * Build from source: [Instructions](http://kube.readthedocs.io/en/latest/setting-up-dev-env/)
-* Build the flatpak: [KDE flatpak applications](git@git.kde.org:flatpak-kde-applications).
+* Build the flatpak: [KDE flatpak applications](https://phabricator.kde.org/source/kube/browse/develop/dist/flatpak/).
 * Install the prebuilt flatpak:
 ```
 flatpak -y --user install --from https://kube.kde.org/files/org.kde.kube.flatpakref
@@ -29,9 +27,9 @@ flatpak run org.kde.kube
 flatpak -y --user install --from https://kolabnow.com/kube/flatpak/com.kolabnow.kube.flatpakref
 flatpak run com.kolabnow.kube
 ```
-* Install from aur on [Archlinux](https://aur.archlinux.org/packages/kube-develop/):
+* Install on [Archlinux](https://www.archlinux.org/packages/community/x86_64/kube/):
 ```
-yaourt -S kube-develop
+yaourt -S kube
 ```
 * Install with emerge on Gentoo:
 ```
@@ -56,10 +54,9 @@ Kube (and the underlying Sink) are primarily written in modern C++ and Qt, with 
 The UI is completely written in QtQuick, which gives us not only a clean separation between UI and core, but also allows us to write different UI's for different formfactors in the future.
 QtQuick also massively reduces the amount of code we need write and maintain compared to a tarditional QWidget based interface.
 
-### Components
-The Kube UI is split up into components, that can then be reused in various places. Since each component is self-contained and installed as a [KPackage](https://api.kde.org/frameworks/kpackage/html/namespaceKPackage.html), these components can even be used from outside the application.
-
-This would i.e. a clock widget on the desktop allow to directly display the Kube Calendar (which we have yet to write), without writing any UI code and with the component providing full functionality.
+### Views
+The Kube UI is split up into views that each try to help with a particular workflow.
+See also https://phabricator.kde.org/T6029.
 
 ### Storage
 As primary storage we're using the [LMDB](https://symas.com/products/lightning-memory-mapped-database/) memory-mapped key-value store.
@@ -113,8 +110,7 @@ The development team has weekly online meetings, so if you'd like to get involve
 
 ## Source
 * [Kube Repository](https://phabricator.kde.org/source/kube/browse/develop/): git://anongit.kde.org/kube
-* [Sink Repository](https://phabricator.kde.org/source/kube/browse/develop/): git://anongit.kde.org/sink
-* [Flatpak source](git://anongit.kde.org/flatpak-kde-applications)
+* [Sink Repository](https://phabricator.kde.org/source/sink/browse/develop/): git://anongit.kde.org/sink
 
 ## Building
 We're using a docker environment to develop to ensure everyone works against the same environment. More information about that can be found in the [Sink Documentation](http://kube-sink.readthedocs.io/en/latest/building/).
