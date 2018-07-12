@@ -122,21 +122,23 @@
 		<p><p>Kube is available for a variety of platforms.</p>
 
 <ul>
-  <li>Flatpak:
-    <div class="highlighter-rouge"><pre class="highlight"><code>flatpak -y --user install --from https://kube.kde.org/files/org.kde.kube.flatpakref
+  <li>Flatpak based on the KDE runtime, periodically updated:
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>flatpak -y --user install --from https://kube.kde.org/files/org.kde.kube.flatpakref
 flatpak run org.kde.kube
-</code></pre>
-    </div>
+</code></pre></div>    </div>
+  </li>
+  <li>Flatpak nightly, not based on the KDE runtime:
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>flatpak -y --user install --from https://kube.kolab.org/kube/flatpak/org.kolab.kube.flatpakref
+flatpak run org.kolab.kube
+</code></pre></div>    </div>
   </li>
   <li><a href="https://www.archlinux.org/packages/community/x86_64/kube/">Archlinux</a>:
-    <div class="highlighter-rouge"><pre class="highlight"><code>yaourt -S kube
-</code></pre>
-    </div>
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>yaourt -S kube
+</code></pre></div>    </div>
   </li>
   <li>Gentoo:
-    <div class="highlighter-rouge"><pre class="highlight"><code>emerge -qa kube
-</code></pre>
-    </div>
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>emerge -qa kube
+</code></pre></div>    </div>
   </li>
   <li><a href="https://github.com/cmollekopf/kube-nix.git">NIXOS overlay</a></li>
   <li><a href="https://kube.kolab.org/kube/kube.dmg">Mac OS image</a></li>
@@ -148,11 +150,11 @@ flatpak run org.kde.kube
 
 <ul>
   <li>Install the Kolab Now edition (Kolab Now exclusive) with the <a href="https://blogs.kolabnow.com/2017/09/27/kube-for-kolab-now">Kolab Now flatpak</a>:
-    <div class="highlighter-rouge"><pre class="highlight"><code>flatpak -y --user install --from https://kolabnow.com/kube/flatpak/com.kolabnow.kube.flatpakref
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>flatpak -y --user install --from https://kolabnow.com/kube/flatpak/com.kolabnow.kube.flatpakref
 flatpak run com.kolabnow.kube
-</code></pre>
-    </div>
+</code></pre></div>    </div>
   </li>
+  <li><a href="https://kube.kolab.org/kube/kube-kolabnow.dmg">Kolab Now Mac OS image</a></li>
 </ul>
 </p>
 	</div>

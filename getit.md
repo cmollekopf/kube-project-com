@@ -6,10 +6,15 @@ nav-menu: yes
 
 Kube is available for a variety of platforms.
 
-* Flatpak:
+* Flatpak based on the KDE runtime, periodically updated:
 ```
 flatpak -y --user install --from https://kube.kde.org/files/org.kde.kube.flatpakref
 flatpak run org.kde.kube
+```
+* Flatpak nightly, not based on the KDE runtime:
+```
+flatpak -y --user install --from https://kube.kolab.org/kube/flatpak/org.kolab.kube.flatpakref
+flatpak run org.kolab.kube
 ```
 * [Archlinux](https://www.archlinux.org/packages/community/x86_64/kube/):
 ```
@@ -31,3 +36,4 @@ Kube for Kolab Now offers you the simplest setup possible. Enter your credential
 flatpak -y --user install --from https://kolabnow.com/kube/flatpak/com.kolabnow.kube.flatpakref
 flatpak run com.kolabnow.kube
 ```
+* [Kolab Now Mac OS image](https://kube.kolab.org/kube/kube-kolabnow.dmg)
