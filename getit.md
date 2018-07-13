@@ -27,6 +27,7 @@ emerge -qa kube
 ```
 * [NIXOS overlay](https://github.com/cmollekopf/kube-nix.git)
 * [Mac OS image](https://kube.kolab.org/kube/kube.dmg)
+* [Fedora Copr Repository](https://copr.fedorainfracloud.org/coprs/rajeeshknambiar/kube/)
 
 ### Kube for Kolab Now
 
