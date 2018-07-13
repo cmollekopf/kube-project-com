@@ -133,26 +133,7 @@ In this section you can find further information about Kube’s technical aspect
 <ul>
   <li>Build from source: <a href="http://kube.readthedocs.io/en/latest/setting-up-dev-env/">Instructions</a></li>
   <li>Build the flatpak: <a href="https://phabricator.kde.org/source/kube/browse/develop/dist/flatpak/">Kube flatpak</a>.</li>
-  <li>Install the prebuilt flatpak:
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>flatpak -y --user install --from https://kube.kde.org/files/org.kde.kube.flatpakref
-flatpak run org.kde.kube
-</code></pre></div>    </div>
-  </li>
-  <li>Install the Kolab Now edition (Kolab Now exclusive) with the <a href="https://blogs.kolabnow.com/2017/09/27/kube-for-kolab-now">Kolab Now flatpak</a>:
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>flatpak -y --user install --from https://kolabnow.com/kube/flatpak/com.kolabnow.kube.flatpakref
-flatpak run com.kolabnow.kube
-</code></pre></div>    </div>
-  </li>
-  <li>Install on <a href="https://www.archlinux.org/packages/community/x86_64/kube/">Archlinux</a>:
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>yaourt -S kube
-</code></pre></div>    </div>
-  </li>
-  <li>Install with emerge on Gentoo:
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>emerge -qa kube
-</code></pre></div>    </div>
-  </li>
-  <li><a href="https://github.com/cmollekopf/kube-nix.git">NIXOS overlay</a></li>
-  <li>Mac OS image: https://kube.kolab.org/kube/kube.dmg</li>
+  <li><a href="getit.html">Install a flatpak or prebuilt package.</a></li>
 </ul>
 
 <!--
@@ -236,7 +217,7 @@ All planning and issue tracking is done on the kde phabricator instance, so that
 </ul>
 
 <h2 id="building">Building</h2>
-<p>We’re using a docker environment to develop to ensure everyone works against the same environment. More information about that can be found in the <a href="http://kube-sink.readthedocs.io/en/latest/building/">Sink Documentation</a>.</p>
+<p>We’re using a docker environment to develop to ensure everyone works against the same environment. More information about that can be found in the <a href="http://kube.readthedocs.io/en/latest/setting-up-dev-env/">Kube Documentation</a>.</p>
 
 <p>Nothing keeps you from just building everything natively though.</p>
 

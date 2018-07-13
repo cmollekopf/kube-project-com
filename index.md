@@ -94,7 +94,7 @@ nav-menu: no
 
             <tr>
                 <td></td>
-                <td><a href="{{ site.baseurl }}/news">More...</a></td>
+                <td><a href="news.html">More...</a></td>
             </tr>
         </table>
 	</div>

@@ -17,26 +17,7 @@ You can try the latest development version using one of the following methods.
 
 * Build from source: [Instructions](http://kube.readthedocs.io/en/latest/setting-up-dev-env/)
 * Build the flatpak: [Kube flatpak](https://phabricator.kde.org/source/kube/browse/develop/dist/flatpak/).
-* Install the prebuilt flatpak:
-```
-flatpak -y --user install --from https://kube.kde.org/files/org.kde.kube.flatpakref
-flatpak run org.kde.kube
-```
-* Install the Kolab Now edition (Kolab Now exclusive) with the [Kolab Now flatpak](https://blogs.kolabnow.com/2017/09/27/kube-for-kolab-now):
-```
-flatpak -y --user install --from https://kolabnow.com/kube/flatpak/com.kolabnow.kube.flatpakref
-flatpak run com.kolabnow.kube
-```
-* Install on [Archlinux](https://www.archlinux.org/packages/community/x86_64/kube/):
-```
-yaourt -S kube
-```
-* Install with emerge on Gentoo:
-```
-emerge -qa kube
-```
-* [NIXOS overlay](https://github.com/cmollekopf/kube-nix.git)
-* Mac OS image: https://kube.kolab.org/kube/kube.dmg
+* [Install a flatpak or prebuilt package.](getit.html)
 
 <!--
 What to test, how to report the findings. (How to create a ticket in Phabricator) - Link to Phabricator (CHECK HOW IT WORKS)
@@ -113,7 +94,7 @@ The development team has weekly online meetings, so if you'd like to get involve
 * [Sink Repository](https://phabricator.kde.org/source/sink/browse/develop/): git://anongit.kde.org/sink
 
 ## Building
-We're using a docker environment to develop to ensure everyone works against the same environment. More information about that can be found in the [Sink Documentation](http://kube-sink.readthedocs.io/en/latest/building/).
+We're using a docker environment to develop to ensure everyone works against the same environment. More information about that can be found in the [Kube Documentation](http://kube.readthedocs.io/en/latest/setting-up-dev-env/).
 
 Nothing keeps you from just building everything natively though.
 
