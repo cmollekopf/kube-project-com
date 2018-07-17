@@ -11,7 +11,7 @@ title-normal: A modern communication and collaboration client.
 # email:
 description: A modern communication and collaboration client.
 # baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://kube.kde.org" # the base hostname & protocol for your site
+url: "https://kube-project.com" # the base hostname & protocol for your site
 author: The Kube Team
 # street_address: 1234 Somewhere Road
 # city: Nashville
