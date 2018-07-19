@@ -2473,6 +2473,11 @@ button,
     padding: 0 !important;
     position: relative;
     z-index: 2; }
+    #banner > .inner .image {
+      display: none; }
+    #banner > .inner .screenshot {
+      width: 80%;
+      height: auto; }
     #banner > .inner header {
       width: auto; }
       #banner > .inner header > :first-child {

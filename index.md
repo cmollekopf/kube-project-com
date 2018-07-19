@@ -12,7 +12,7 @@ nav-menu: no
         <header class="major">
             <h1>{{ page.landing-title }}</h1>
         </header>
-        <div><img src="assets/images/kube_main.jpg" width="1024" height="600" alt="" /></div>
+        <img class="screenshot" src="assets/images/kube_main.jpg" alt="" />
         <div class="content">
             <p style="text-transform: uppercase;">{{ site.description }}</p>
             <ul class="actions">
