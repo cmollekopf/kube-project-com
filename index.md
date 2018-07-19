@@ -8,17 +8,18 @@ nav-menu: no
 
 <!-- Banner -->
 <section id="banner" class="major">
-	<div class="inner">
-		<header class="major">
-			<h1>{{ page.landing-title }}</h1>
-		</header>
-		<div class="content">
-			<p style="text-transform: uppercase;">{{ site.description }}</p>
-			<ul class="actions">
-				<li><a href="#one" class="button next scrolly">Get Started</a></li>
-			</ul>
-		</div>
-	</div>
+    <div class="inner">
+        <header class="major">
+            <h1>{{ page.landing-title }}</h1>
+        </header>
+        <div><img src="assets/images/kube_main.jpg" width="1024" height="600" alt="" /></div>
+        <div class="content">
+            <p style="text-transform: uppercase;">{{ site.description }}</p>
+            <ul class="actions">
+                <li><a href="getit.html" class="button">Get it</a></li>
+            </ul>
+        </div>
+    </div>
 </section>
 
 <!-- Main -->

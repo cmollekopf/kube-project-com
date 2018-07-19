@@ -16,22 +16,22 @@ The website can be tested locally with 'jekyll serve'. Note that this will alter
 
 # Updating the CSS
 
-Do not touch css directly. All CSS is generated using sass. Colors can e.g. be modified in assets/sass/libs/_vars.scss, to regenerate run "sass sass/main.scss:css/main.css" from the assets/ directory.
+Do not touch css directly. All CSS is generated using sass. Colors can e.g. be modified in assets/sass/libs/_vars.scss, to regenerate run "sass sassets/ass/main.scss:assets/css/main.css" the root directory.
 
 
 # Forty - Jekyll Theme
 
-A Jekyll version of the "Forty" theme by [HTML5 UP](https://html5up.net/).  
+A Jekyll version of the "Forty" theme by [HTML5 UP](https://html5up.net/).
 
 ![Forty Theme](assets/images/forty.jpg "Forty Theme")
 
 # How to Use
 
-For those unfamiliar with how Jekyll works, check out [https://jekyllrb.com/](https://jekyllrb.com/) for all the details, 
-or read up on just the basics of [front matter](https://jekyllrb.com/docs/frontmatter/), [writing posts](https://jekyllrb.com/docs/posts/), 
+For those unfamiliar with how Jekyll works, check out [https://jekyllrb.com/](https://jekyllrb.com/) for all the details,
+or read up on just the basics of [front matter](https://jekyllrb.com/docs/frontmatter/), [writing posts](https://jekyllrb.com/docs/posts/),
 and [creating pages](https://jekyllrb.com/docs/pages/).
 
-- **GitLab**: Simply fork this repository and start editing the `_config.yml` file!  
+- **GitLab**: Simply fork this repository and start editing the `_config.yml` file!
 - **GitHub**: Fork this reposity and create a branch named `gh-pages`, then start editing the `_config.yml` file! The `.gitlab-ci.yml` file is only needed for GitLab Pages, so feel free to delete this if you are using GitHub instead.
 
 # Added Features
