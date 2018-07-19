@@ -4,19 +4,20 @@ title: Get Kube!
 nav-menu: yes
 ---
 
-Kube is available for a variety of platforms. If you want to try a bleeding edge version the org.kolab.kube flatpak is the most frequently updated.
-If you want a flatpak that shares the platform with other KDE flatpaks, use the org.kde.kube flatpak. They are otherwise identical and both built from the develop branch.
+Kube is available for a variety of platforms. The com.kubeproject.kube flatpak is recommended way to try the latest version of kube.
 
-* Flatpak based on the KDE runtime, periodically updated from the develop branch:
+* Flatpak nightly from the develop branch.:
+```
+flatpak -y --user install --from https://kube-project.com/files/com.kubeproject.kube.flatpakref
+flatpak run com.kubeproject.kube
+```
+
+* Flatpak based on the KDE runtime, periodically updated from the develop branch.:
 ```
 flatpak -y --user install --from https://kube.kde.org/files/org.kde.kube.flatpakref
 flatpak run org.kde.kube
 ```
-* Flatpak nightly from the develop branch, not based on the KDE runtime.:
-```
-flatpak -y --user install --from https://kube.kolab.org/kube/flatpak/org.kolab.kube.flatpakref
-flatpak run org.kolab.kube
-```
+
 * [Archlinux](https://www.archlinux.org/packages/community/x86_64/kube/):
 ```
 yaourt -S kube
