@@ -1,4 +1,5 @@
 # Kube Website
+
 This is the website for the kube project.
 It's based on jekyll and has the following dependencies (installed with "gem install"):
 * jemoji
@@ -8,9 +9,15 @@ It's based on jekyll and has the following dependencies (installed with "gem ins
 * jekyll-sitemap
 
 # Building the website
+
 Use 'jekyll build'. This will generate the site in _site/, which is the content that needs to be comitted and pushed to the repo so the webserver can serve it.
 
 The website can be tested locally with 'jekyll serve'. Note that this will alter the _site/ content with urls adjusted to localhost, so don't push the result of that. Always use 'jekyll build' before pushing.
+
+# Updating the CSS
+
+Do not touch css directly. All CSS is generated using sass. Colors can e.g. be modified in assets/sass/libs/_vars.scss, to regenerate run "sass sass/main.scss:css/main.css" from the assets/ directory.
+
 
 # Forty - Jekyll Theme
 
