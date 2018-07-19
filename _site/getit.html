@@ -8,9 +8,9 @@
 
 <head>
 	<title></title>
-	<!-- Begin Jekyll SEO tag v2.4.0 -->
+	<!-- Begin Jekyll SEO tag v2.5.0 -->
 <title>Get Kube!</title>
-<meta name="generator" content="Jekyll v3.7.3" />
+<meta name="generator" content="Jekyll v3.8.3" />
 <meta property="og:title" content="Get Kube!" />
 <meta name="author" content="The Kube Team" />
 <meta property="og:locale" content="en_US" />
@@ -22,7 +22,7 @@
 <meta name="twitter:site" content="@" />
 <meta name="twitter:creator" content="@The Kube Team" />
 <script type="application/ld+json">
-{"description":"A modern communication and collaboration client.","author":{"@type":"Person","name":"The Kube Team"},"@type":"WebPage","url":"https://kube-project.com/getit.html","headline":"Get Kube!","@context":"http://schema.org"}</script>
+{"@type":"WebPage","url":"https://kube-project.com/getit.html","headline":"Get Kube!","author":{"@type":"Person","name":"The Kube Team"},"description":"A modern communication and collaboration client.","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 	<link type="application/atom+xml" rel="alternate" href="https://kube-project.com/feed.xml" />
@@ -119,27 +119,30 @@
 			<h1>Get Kube!</h1>
 		</header>
 		
-		<p><p>Kube is available for a variety of platforms. If you want to try a bleeding edge version the org.kolab.kube flatpak is the most frequently updated.
-If you want a flatpak that shares the platform with other KDE flatpaks, use the org.kde.kube flatpak. They are otherwise identical and both built from the develop branch.</p>
+		<p><p>Kube is available for a variety of platforms. The com.kubeproject.kube flatpak is recommended way to try the latest version of kube.</p>
 
 <ul>
-  <li>Flatpak based on the KDE runtime, periodically updated from the develop branch:
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>flatpak -y --user install --from https://kube.kde.org/files/org.kde.kube.flatpakref
-flatpak run org.kde.kube
-</code></pre></div>    </div>
+  <li>Flatpak nightly from the develop branch.:
+    <div class="highlighter-rouge"><pre class="highlight"><code>flatpak -y --user install --from https://kube-project.com/files/com.kubeproject.kube.flatpakref
+flatpak run com.kubeproject.kube
+</code></pre>
+    </div>
   </li>
-  <li>Flatpak nightly from the develop branch, not based on the KDE runtime.:
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>flatpak -y --user install --from https://kube.kolab.org/kube/flatpak/org.kolab.kube.flatpakref
-flatpak run org.kolab.kube
-</code></pre></div>    </div>
+  <li>Flatpak based on the KDE runtime, periodically updated from the develop branch.:
+    <div class="highlighter-rouge"><pre class="highlight"><code>flatpak -y --user install --from https://kube.kde.org/files/org.kde.kube.flatpakref
+flatpak run org.kde.kube
+</code></pre>
+    </div>
   </li>
   <li><a href="https://www.archlinux.org/packages/community/x86_64/kube/">Archlinux</a>:
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>yaourt -S kube
-</code></pre></div>    </div>
+    <div class="highlighter-rouge"><pre class="highlight"><code>yaourt -S kube
+</code></pre>
+    </div>
   </li>
   <li>Gentoo:
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>emerge -qa kube
-</code></pre></div>    </div>
+    <div class="highlighter-rouge"><pre class="highlight"><code>emerge -qa kube
+</code></pre>
+    </div>
   </li>
   <li><a href="https://github.com/cmollekopf/kube-nix.git">NIXOS overlay</a></li>
   <li><a href="https://kube.kolab.org/kube/kube.dmg">Mac OS image</a></li>
@@ -152,9 +155,10 @@ flatpak run org.kolab.kube
 
 <ul>
   <li>Install the Kolab Now edition (Kolab Now exclusive) with the <a href="https://blogs.kolabnow.com/2017/09/27/kube-for-kolab-now">Kolab Now flatpak</a>:
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>flatpak -y --user install --from https://kolabnow.com/kube/flatpak/com.kolabnow.kube.flatpakref
+    <div class="highlighter-rouge"><pre class="highlight"><code>flatpak -y --user install --from https://kolabnow.com/kube/flatpak/com.kolabnow.kube.flatpakref
 flatpak run com.kolabnow.kube
-</code></pre></div>    </div>
+</code></pre>
+    </div>
   </li>
   <li><a href="https://kube.kolab.org/kube/kube-kolabnow.dmg">Kolab Now Mac OS image</a></li>
 </ul>
