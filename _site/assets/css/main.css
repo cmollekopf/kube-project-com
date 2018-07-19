@@ -2476,8 +2476,8 @@ button,
     #banner > .inner .image {
       display: none; }
     #banner > .inner .screenshot {
-      width: 80%;
-      height: auto; }
+      height: 50vh;
+      width: auto; }
     #banner > .inner header {
       width: auto; }
       #banner > .inner header > :first-child {
