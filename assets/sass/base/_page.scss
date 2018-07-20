@@ -26,6 +26,10 @@
 	body {
 		background: _palette(bg);
 
+        img {
+            width: 100%;
+        }
+
 		// Prevents animation/transition "flicker" on page load.
 		// Automatically added/removed by js/main.js.
 			&.is-loading {
