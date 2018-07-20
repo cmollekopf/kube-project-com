@@ -8,7 +8,6 @@ It's based on jekyll and has the following dependencies (installed with "gem ins
 * jekyll-seo-tag
 * jekyll-sitemap
 
-
 # Building the website
 
 Use 'jekyll build'. This will generate the site in _site/, which is the content that needs to be comitted and pushed to the repo so the webserver can serve it.
