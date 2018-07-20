@@ -40,9 +40,10 @@
 		// 	z-index: 1;
 		// }
 
-		h1 {
-			font-size: 3.25em;
-		}
+        h1 {
+            font-size: 3.25em;
+            color: _palette(accent2);
+        }
 
 		> .inner {
 			@include vendor('transition', (
