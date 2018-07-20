@@ -25,6 +25,11 @@ A Jekyll version of the "Forty" theme by [HTML5 UP](https://html5up.net/).
 
 ![Forty Theme](assets/images/forty.jpg "Forty Theme")
 
+## Theme features
+
+* Spotlight: Picture on one side and text on the other. Altering side with multiple spotlights.
+* Tiles: With hover effect, background image, and optionally clickable.
+
 # How to Use
 
 For those unfamiliar with how Jekyll works, check out [https://jekyllrb.com/](https://jekyllrb.com/) for all the details,
