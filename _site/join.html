@@ -123,29 +123,19 @@
 In this section you can find further information about Kube’s technical aspects and find promising areas to work with.</p>
 
 <h2 id="for-testers">For Testers</h2>
-<p>Like any project, testing is critical and one way to participate in the project is to install and try the early version of Kube.</p>
+<p>Like any project, testing is critical and one way to participate in the project is to install and try Kube.</p>
 
-<p>Unfortunately we don’t have regular builds ready yet. We’re working on a <a href="https://www.flatpak.org">flatpak</a> nightly, as well as regular package builds from an <a href="https://www.openbuildservice.org">OBS</a> instance (Regular users will of course be able to install Kube from their favorite distribution eventually). We do have some experimental builds available though.</p>
+<p>If you find a problem that you think should be fixed you can report it over <a href="https://phabricator.kde.org/project/view/238/">here</a>.</p>
 
 <h3 id="how-to-install-a-test-version">How to install a test version</h3>
 <p>You can try the latest development version using one of the following methods.</p>
 
 <ul>
   <li>Build from source: <a href="http://kube.readthedocs.io/en/latest/setting-up-dev-env/">Instructions</a></li>
-  <li>Build the flatpak: <a href="https://phabricator.kde.org/source/kube/browse/develop/dist/flatpak/">Kube flatpak</a>.</li>
   <li><a href="getit.html">Install a flatpak or prebuilt package.</a></li>
 </ul>
 
-<!--
-What to test, how to report the findings. (How to create a ticket in Phabricator) - Link to Phabricator (CHECK HOW IT WORKS)
--->
-
 <h2 id="for-developers">For Developers</h2>
-<!--
-Technical information, why its so awesome. Ways to contribute. Documentation. Conctact paths to devs.
--->
-<p>While Kube builds on a lot of experience from KDEPIM Kontact, it is a fresh start that allowed us to get rid of the cruft and work with cutting edge technologies. We’re trying to reuse what we can and not unnecessarily rebuild things that are already existing, but we’re also comitted to only build on things we believe are stable enough and maintainable so we have a solid foundation.</p>
-
 <p>Kube (and the underlying Sink) are primarily written in modern C++ and Qt, with QtQuick used for the UI.</p>
 
 <h3 id="qtquick">QtQuick</h3>
@@ -154,7 +144,7 @@ QtQuick also massively reduces the amount of code we need write and maintain com
 
 <h3 id="views">Views</h3>
 <p>The Kube UI is split up into views that each try to help with a particular workflow.
-See also https://phabricator.kde.org/T6029.</p>
+See also <a href="https://phabricator.kde.org/T6029">https://phabricator.kde.org/T6029</a>.</p>
 
 <h3 id="storage">Storage</h3>
 <p>As primary storage we’re using the <a href="https://symas.com/products/lightning-memory-mapped-database/">LMDB</a> memory-mapped key-value store.

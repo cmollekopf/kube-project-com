@@ -119,15 +119,20 @@
 			<h1>Get Kube!</h1>
 		</header>
 		
-		<p><p>Kube is available for a variety of platforms. The com.kubeproject.kube flatpak is recommended way to try the latest version of kube.</p>
-
-<ul>
-  <li>Flatpak nightly from the develop branch.:
-    <div class="highlighter-rouge"><pre class="highlight"><code>flatpak -y --user install --from https://kube-project.com/files/com.kubeproject.kube.flatpakref
+		<p><h2 id="linux">Linux</h2>
+<p>Flatpak is recommended way to try the latest version of kube:</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>flatpak -y --user install --from https://files.kube-project.com/flatpak/com.kubeproject.kube.flatpakref
 flatpak run com.kubeproject.kube
 </code></pre>
-    </div>
-  </li>
+</div>
+
+<h2 id="mac-os">Mac OS</h2>
+<p>A nightly updated <a href="https://kube.kolab.org/kube/kube.dmg">Mac OS image</a> is available.</p>
+
+<h3 id="other-sources">Other sources</h3>
+<p>Kube is available for a variety of distributions.</p>
+
+<ul>
   <li>Flatpak based on the KDE runtime, periodically updated from the develop branch.:
     <div class="highlighter-rouge"><pre class="highlight"><code>flatpak -y --user install --from https://kube.kde.org/files/org.kde.kube.flatpakref
 flatpak run org.kde.kube
@@ -145,13 +150,12 @@ flatpak run org.kde.kube
     </div>
   </li>
   <li><a href="https://github.com/cmollekopf/kube-nix.git">NIXOS overlay</a></li>
-  <li><a href="https://kube.kolab.org/kube/kube.dmg">Mac OS image</a></li>
   <li><a href="https://copr.fedorainfracloud.org/coprs/rajeeshknambiar/kube/">Fedora Copr Repository</a></li>
 </ul>
 
 <h3 id="kube-for-kolab-now">Kube for Kolab Now</h3>
 
-<p>Kube for Kolab Now offers you the simplest setup possible. Enter your credentials, done.</p>
+<p>Kube for <a href="https://kolabnow.com">Kolab Now</a> offers you the simplest setup possible for <a href="https://kolabnow.com">Kolab Now</a> users. Enter your credentials, done.</p>
 
 <ul>
   <li>Install the Kolab Now edition (Kolab Now exclusive) with the <a href="https://blogs.kolabnow.com/2017/09/27/kube-for-kolab-now">Kolab Now flatpak</a>:

@@ -18,7 +18,6 @@ Kube is a modern communication and collaboration client built with [QtQuick](htt
 * Full offline access so you can rely on Kube no matter where you are.
 
 ## Development
-![Hannah Wei](assets/images/lonelyguy.jpg)
 
 This project started with the aim to produce a product that doesn't cater to all usecases, but does what it does well. We want a codebase that is well maintainable by a small team, and that  can move fast. We want a codebase where it is fast and easy to prototype new features and turn them eventually into full implementations, without compromising the quality of the rest of the [system](http://kube.readthedocs.io/en/latest/design/). Additionaly the product should  be portable accross a variety of platforms, including mobile, not only due to a portable codebase, but also due to different UI's for the various formfactors.
 
