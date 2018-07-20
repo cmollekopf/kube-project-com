@@ -14,6 +14,9 @@ nav-menu: no
         </header>
         <div class="content">
             <p>{{ site.description }}</p>
+            <ul class="actions">
+                <li><a href="getit.html" class="button next scrolly">Get it</a></li>
+            </ul>
         </div>
     </div>
 </section>
