@@ -4,14 +4,14 @@ title: Get Kube!
 nav-menu: yes
 ---
 
-## Linux
+## For Linux
 Flatpak is recommended way to try the latest version of kube:
 ```
 flatpak -y --user install --from https://files.kube-project.com/flatpak/com.kubeproject.kube.flatpakref
 flatpak run com.kubeproject.kube
 ```
 
-## Mac OS
+## For Mac OS
 A nightly updated [Mac OS image](https://kube.kolab.org/kube/kube.dmg) is available.
 
 ### Other sources
