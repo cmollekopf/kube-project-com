@@ -12,13 +12,10 @@ nav-menu: no
         <header class="major">
             <h1>{{ page.landing-title }}</h1>
         </header>
-        <img class="screenshot" src="assets/images/kube_main.jpg" alt="" />
         <div class="content">
             <p style="text-transform: uppercase;">{{ site.description }}</p>
-            <ul class="actions">
-                <li><a href="getit.html" class="button">Get it</a></li>
-            </ul>
         </div>
+        <img class="screenshot" src="assets/images/kube_main.jpg" alt="" />
     </div>
 </section>
 

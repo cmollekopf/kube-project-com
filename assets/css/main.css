@@ -2476,8 +2476,10 @@ button,
     #banner > .inner .image {
       display: none; }
     #banner > .inner .screenshot {
-      height: 50vh;
-      width: auto; }
+      height: 50%;
+      width: auto;
+      max-width: 100%;
+      max-height: 50%; }
     #banner > .inner header {
       width: auto; }
       #banner > .inner header > :first-child {

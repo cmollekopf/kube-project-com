@@ -60,8 +60,10 @@
 			}
 
             .screenshot {
-                height: 50vh;
+                height: 50%;
                 width: auto;
+                max-width: 100%;
+                max-height: 50%;
             }
 
 			header {
