@@ -15,7 +15,6 @@ nav-menu: no
         <div class="content">
             <p>{{ site.description }}</p>
         </div>
-        <img class="screenshot" src="assets/images/kube_main.jpg" alt="" />
     </div>
 </section>
 
@@ -25,6 +24,8 @@ nav-menu: no
 <section id="one">
 	<div class="inner">
         <p>"Kube is a modern communication and collaboration client built with QtQuick on top of a high performance, low resource usage core. It provides online and offline access to all your mail, contacts, calendars, notes, todo's and more.  With a strong focus on usability, the team works with designers and UX experts from the ground up, to build a product that is not only visually appealing but also a joy to use."</p>
+
+        <img style="width: 100%; height: auto;" src="assets/images/kube_main.jpg" alt="" />
 
         <p>We are an active project spearheaded by Kolab Systems in collaboration with the KDE community. We initially focus on email and calendaring only to ensure that the core features of the application are in place before going forward.</p>
         <ul class="actions">
