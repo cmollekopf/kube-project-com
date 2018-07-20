@@ -13,7 +13,7 @@ nav-menu: no
             <h1>{{ page.landing-title }}</h1>
         </header>
         <div class="content">
-            <p style="text-transform: uppercase;">{{ site.description }}</p>
+            <p>{{ site.description }}</p>
         </div>
         <img class="screenshot" src="assets/images/kube_main.jpg" alt="" />
     </div>
