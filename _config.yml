@@ -7,9 +7,9 @@
 
 # Site settings
 title-bold: Kube
-title-normal: A modern communication and collaboration client.
+title-normal: A modern communication and collaboration client
 # email:
-description: A modern communication and collaboration client.
+description: A modern communication and collaboration client
 # baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://kube-project.com" # the base hostname & protocol for your site
 author: The Kube Team
