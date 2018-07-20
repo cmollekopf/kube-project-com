@@ -72,7 +72,7 @@
 				display: block;
 				height: 100%;
 				left: 0;
-				opacity: 0.85;
+				opacity: 0.5;
 				position: absolute;
 				width: 100%;
 				z-index: 2;
@@ -90,11 +90,11 @@
 				z-index: 1;
 			}
 
-			&:hover {
-				&:before {
-					opacity: 0;
-				}
-			}
+			// &:hover {
+			// 	&:before {
+			// 		opacity: 0;
+			// 	}
+			// }
 
 			&.is-transitioning {
 				@include vendor('transform', 'scale(0.95)');

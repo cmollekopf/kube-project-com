@@ -39,40 +39,34 @@ nav-menu: no
 	</div>
 </section>
 
-<!-- Two -->
-<section id="two" class="spotlights">
-	<section>
-		<a href="features.html" class="image">
-            <img src="assets/images/people.jpg" alt="" data-position="center center" />
-		</a>
-		<div class="content">
-			<div class="inner">
-				<header class="major">
-					<h3>Features in Kube</h3>
-				</header>
-				<p>Communication and collaboration within large groups and spread over several time zones is complex and something of the norm in modern projects and the existing solutions available are not up to that challenge. Kube is a way to simplify and make communication elegant again by focusing on the key needs of users instead of filling it with any feature that comes to mind. Our strict focus on what is actually needed instead of what is wanted brings a new way of collaboration between group members and a simpler way of handling communication.</p>
-				<ul class="actions">
-					<li><a href="features.html" class="button">Learn more</a></li>
-				</ul>
-			</div>
-		</div>
-	</section>
-	<section>
-		<a href="join.html" class="image">
-            <img src="assets/images/pens.jpg" alt="" data-position="center center" />
-		</a>
-		<div class="content">
-			<div class="inner">
-				<header class="major">
-					<h3>Join Kube!</h3>
-				</header>
-				<p>There is a wealth of opportunities to take part in the Kube project. As a dedicated Open Source project we intend to give people in the wider open source community, developers and testers, the chance to work with us to improve the state of communication and collaboration in Open Source. For testers, the chance to have early access to the project and test its limits and for developers the challenge that an application the size and breadth of Kube can bring. In this section you can find further information about Kube's technical aspects and find promising areas to work with.</p>
-				<ul class="actions">
-					<li><a href="join.html" class="button">Join!</a></li>
-				</ul>
-			</div>
-		</div>
-	</section>
+<section id="tiles" class="tiles">
+    <article>
+            <!-- span class="image">
+                    <img src="assets/images/people.jpg" alt="" />
+            </span -->
+            <header class="major">
+					<h3>Secure</h3>
+                    <p>Kube comes with end-to-end encryption based on GPG.</p>
+            </header>
+    </article>
+    <article>
+            <header class="major">
+					<h3>Distraction free</h3>
+                    <p>Content first and there when you need it, out of your way when you don't.</p>
+            </header>
+    </article>
+    <article>
+            <header class="major">
+					<h3>Simple</h3>
+                    <p>Enter your credentials and your good to go. No configuration required.</p>
+            </header>
+    </article>
+    <article>
+            <header class="major">
+					<h3><a href="join.html" class="link">Free Software</a></h3>
+                    <p>Kube is and will always be fully Open Source. Join us!</p>
+            </header>
+    </article>
 </section>
 
 <section id="stuff">
