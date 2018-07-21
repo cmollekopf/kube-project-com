@@ -25,7 +25,7 @@ nav-menu: no
 <div id="main">
 
 <section id="one">
-	<div class="inner">
+    <div class="inner">
         <p>"Kube is a modern communication and collaboration client built with QtQuick on top of a high performance, low resource usage core. It provides online and offline access to all your mail, contacts, calendars, notes, todo's and more.  With a strong focus on usability, the team works with designers and UX experts from the ground up, to build a product that is not only visually appealing but also a joy to use."</p>
 
         <img style="width: 100%; height: auto;" src="assets/images/kube_main.jpg" alt="" />
@@ -36,7 +36,7 @@ nav-menu: no
             <li><a href="join.html" class="button">Join!</a></li>
         </ul>
 
-	</div>
+    </div>
 </section>
 
 <section id="tiles" class="tiles">
@@ -45,35 +45,35 @@ nav-menu: no
                     <img src="assets/images/people.jpg" alt="" />
             </span -->
             <header class="major">
-					<h3>Secure</h3>
+                    <h3>Secure</h3>
                     <p>Kube comes with end-to-end encryption based on GPG.</p>
             </header>
     </article>
     <article>
             <header class="major">
-					<h3>Distraction free</h3>
+                    <h3>Distraction free</h3>
                     <p>There when you need it, out of your way when you don't.</p>
             </header>
     </article>
     <article>
             <header class="major">
-					<h3>Simple</h3>
+                    <h3>Simple</h3>
                     <p>Enter your credentials and your good to go. No configuration required.</p>
             </header>
     </article>
     <article>
             <header class="major">
-					<h3><a href="join.html" class="link">Free Software</a></h3>
+                    <h3><a href="join.html" class="link">Free Software</a></h3>
                     <p>Kube is, and always will be, fully Open Source. Join us!</p>
             </header>
     </article>
 </section>
 
 <section id="stuff">
-	<div class="inner">
-		<header class="major">
-			<h2>Latest news</h2>
-		</header>
+    <div class="inner">
+        <header class="major">
+            <h2>Latest news</h2>
+        </header>
         <p>
         Blog Posts from the community:
         <br/> <a href="https://blogs.kolabnow.com/tag/kube">by Kolab Now</a>
@@ -93,7 +93,7 @@ nav-menu: no
                 <td><a href="news.html">More...</a></td>
             </tr>
         </table>
-	</div>
+    </div>
 </section>
 
 </div>

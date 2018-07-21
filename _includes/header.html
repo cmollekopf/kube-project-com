@@ -4,27 +4,27 @@
 <!-- Header -->
 <header id="header" class="alt style2">
     {% if page.layout != "landing" %}<a href="{{ site.url }}{{ site.baseurl }}" class="logo"><strong>{{ site.title-bold }}</strong> <span>{{ site.title-normal }}</span></a>{% endif %}
-	<nav>
-		<a href="#menu">Menu</a>
-	</nav>
+    <nav>
+        <a href="#menu">Menu</a>
+    </nav>
 </header>
 
 <!-- Menu -->
 <nav id="menu">
-	<ul class="links">
+    <ul class="links">
         {% for page in site.pages %}
-		    {% if page.layout == "landing" %}
-		        <li><a href="{{ page.url | prepend: site.baseurl | remove: "index.html" }}">{{ page.title }}</a></li>
-	    	{% endif %}
-		{% endfor %}
-		{% for page in site.pages %}
-		    {% if page.layout != "landing" %}
-		        <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-		    {% endif %}
-		{% endfor %}
-	</ul>
-	<!-- ul class="actions vertical">
-		<li><a href="#" class="button special fit">Get Started</a></li>
-		<li><a href="#" class="button fit">Log In</a></li>
-	</ul -->
+            {% if page.layout == "landing" %}
+                <li><a href="{{ page.url | prepend: site.baseurl | remove: "index.html" }}">{{ page.title }}</a></li>
+            {% endif %}
+        {% endfor %}
+        {% for page in site.pages %}
+            {% if page.layout != "landing" %}
+                <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+    <!-- ul class="actions vertical">
+        <li><a href="#" class="button special fit">Get Started</a></li>
+        <li><a href="#" class="button fit">Log In</a></li>
+    </ul -->
 </nav>
