@@ -52,7 +52,7 @@ nav-menu: no
     <article>
             <header class="major">
 					<h3>Distraction free</h3>
-                    <p>Content first and there when you need it, out of your way when you don't.</p>
+                    <p>There when you need it, out of your way when you don't.</p>
             </header>
     </article>
     <article>
@@ -64,7 +64,7 @@ nav-menu: no
     <article>
             <header class="major">
 					<h3><a href="join.html" class="link">Free Software</a></h3>
-                    <p>Kube is and will always be fully Open Source. Join us!</p>
+                    <p>Kube is, and always will be, fully Open Source. Join us!</p>
             </header>
     </article>
 </section>

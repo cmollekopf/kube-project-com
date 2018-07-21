@@ -29,12 +29,11 @@
 			background-repeat: no-repeat;
 			background-size: cover;
 			cursor: default;
-			height: 40vh;
-			max-height: 40em;
-			min-height: 23em;
+			height: 30vh;
+			max-height: 20em;
+			min-height: 10em;
 			overflow: hidden;
 			position: relative;
-			width: 40%;
 
 			.image {
 				display: none;
@@ -102,11 +101,16 @@
 				opacity: 0;
 			}
 
+            //We could of course just statically assign 25%, but I don't want to forget how to do a different layout.
 			&:nth-child(4n - 1),
-			&:nth-child(4n - 2) {
-				width: 60%;
+			&:nth-child(4n - 3) {
+				width: 25%;
 			}
 
+			&:nth-child(4n - 2),
+			&:nth-child(4n - 4) {
+				width: 25%;
+			}
 			&:nth-child(6n - 5) {
 				&:before {
 					background-color: _palette(accent1);
