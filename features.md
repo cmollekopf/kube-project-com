@@ -19,11 +19,11 @@ Kube is a modern communication and collaboration client built with [QtQuick](htt
 
 ## Development
 
-This project started with the aim to produce a product that doesn't cater to all usecases, but does what it does well. We want a codebase that is well maintainable by a small team, and that  can move fast. We want a codebase where it is fast and easy to prototype new features and turn them eventually into full implementations, without compromising the quality of the rest of the [system](http://kube.readthedocs.io/en/latest/design/). Additionaly the product should  be portable accross a variety of platforms, including mobile, not only due to a portable codebase, but also due to different UI's for the various formfactors.
+We're not aiming to produce a product that caters to all usecases, but one that does what it does well. We want a codebase that is maintainable by a small team, and that  can move fast. We want it to be cheap and easy to prototype new features, without compromising the quality of the rest of the [system](http://kube.readthedocs.io/en/latest/design/). Last but not least, we want portability accross a variety of platforms, including mobile, not only witha portable codebase, but also with different UI's catering to the various formfactors.
 
 For Developers:
 * A small and concise codebase that is easy to modify and evolve.
 * The UI is written completely in QtQuick, allowing for quick prototypes.
 * Integration with third party applications:
-    * Since components are self contained and made available throuh the KPackage sytem, external applications can load fully functional Kube components.
+    * Since components are self contained and made available as plugins, external applications can load fully functional Kube components.
 
