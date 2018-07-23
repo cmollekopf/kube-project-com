@@ -11,15 +11,18 @@ This is the purpose of Kube: beautiful, modern communication in a reliable, high
 
 Kube is in early development but our goals are clear. To create a stable, understandable and effective communication and collaboration platform for end users and project managers alike. Our key-stone feature of the application is the email client, and that is our initial focus.
 
-Kube is a modern communication and collaboration client built with [QtQuick](http://doc.qt.io/qt-5/qtquick-index.html) on top of a high performance, low resource usage [core](http://kube-sink.readthedocs.io/en/latest/design/). It provides online and offline access to all your mail, contacts, calendars, notes, todo's and more. With a strong focus on usability, the team works with designers and UX experts from the ground up, to build a product that is not only visually appealing but also a joy to use.
+Kube is a modern communication and collaboration client built with [QtQuick](http://doc.qt.io/qt-5/qtquick-index.html) on top of a high performance, low resource usage [core](http://kube-sink.readthedocs.io/en/latest/design/). It provides online and offline access to all your mail and contacts. With a strong focus on usability, the team works with designers and UX experts from the ground up, to build a product that is not only visually appealing but also a joy to use.
 
 * An easy to use and beautiful UI that let's you focus on what you need to accomplish.
 * Fast and powerful when you need it, getting out of your way when you don't.
 * Full offline access so you can rely on Kube no matter where you are.
+* GPG based end-to-end encryption.
+* Keyboard navigation to get around quickly.
+* Fulltext search.
 
 ## Development
 
-We're not aiming to produce a product that caters to all usecases, but one that does what it does well. We want a codebase that is maintainable by a small team, and that  can move fast. We want it to be cheap and easy to prototype new features, without compromising the quality of the rest of the [system](http://kube.readthedocs.io/en/latest/design/). Last but not least, we want portability accross a variety of platforms, including mobile, not only witha portable codebase, but also with different UI's catering to the various formfactors.
+We're aiming to produce a product that does what it does well, even if that means not catering to all usecases. We want a codebase that is maintainable by a small team, and that  can move fast. We want it to be cheap and easy to prototype new features, without compromising the quality of the rest of the [system](http://kube.readthedocs.io/en/latest/design/). Last but not least, we want portability accross a variety of platforms, including mobile, not only witha portable codebase, but also with different UI's catering to the various formfactors.
 
 For Developers:
 * A small and concise codebase that is easy to modify and evolve.
