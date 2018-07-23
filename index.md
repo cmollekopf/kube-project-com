@@ -41,23 +41,20 @@ nav-menu: no
 
 <section id="tiles" class="tiles">
     <article>
-            <!-- span class="image">
-                    <img src="assets/images/people.jpg" alt="" />
-            </span -->
             <header class="major">
-                    <h3>Secure</h3>
+                    <h3><a href="features.html" class="link">Secure</a></h3>
                     <p>Kube comes with end-to-end encryption based on GPG.</p>
             </header>
     </article>
     <article>
             <header class="major">
-                    <h3>Distraction free</h3>
+                    <h3><a href="features.html" class="link">Distraction free</a></h3>
                     <p>There when you need it, out of your way when you don't.</p>
             </header>
     </article>
     <article>
             <header class="major">
-                    <h3>Simple</h3>
+                    <h3><a href="features.html" class="link">Simple</a></h3>
                     <p>Enter your credentials and your good to go. No configuration required.</p>
             </header>
     </article>
