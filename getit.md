@@ -12,7 +12,7 @@ flatpak run com.kubeproject.kube
 ```
 
 ## For Mac OS
-A nightly updated [Mac OS image](https://kube.kolab.org/kube/kube.dmg) is available.
+A nightly updated [Mac OS image](https://kube.kolab.org/kube/kube.dmg) is available. Requires Mac OS Mavericks (10.9) or later.
 
 ### Other sources
 Kube is available for a variety of distributions.
