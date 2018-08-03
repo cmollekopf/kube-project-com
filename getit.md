@@ -4,8 +4,10 @@ title: Get Kube!
 nav-menu: yes
 ---
 
+Try the latest and greatest from the Kube team.
+
 ## For Linux
-Flatpak is recommended way to try the latest version of kube:
+Flatpak is recommended way to try the latest version of Kube:
 ```
 flatpak -y --user install --from https://files.kube-project.com/flatpak/com.kubeproject.kube.flatpakref
 flatpak run com.kubeproject.kube
