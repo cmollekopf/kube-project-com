@@ -44,4 +44,4 @@ Kube for [Kolab Now](https://kolabnow.com) offers you the simplest setup possibl
 flatpak -y --user install --from https://kolabnow.com/kube/flatpak/com.kolabnow.kube.flatpakref
 flatpak run com.kolabnow.kube
 ```
-* [Kolab Now Mac OS image](https://kube.kolab.org/kube/kube-kolabnow.dmg)
+* [Kolab Now Mac OS image](https://files.kube-project.com/kube-kolabnow.dmg)
