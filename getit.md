@@ -41,7 +41,7 @@ Kube for [Kolab Now](https://kolabnow.com) offers you the simplest setup possibl
 
 * Install the Kolab Now edition (Kolab Now exclusive) with the [Kolab Now flatpak](https://blogs.kolabnow.com/2017/09/27/kube-for-kolab-now): ![](http://cmollekopf.hopto.org:8010/badges/kolabnowflatpak.svg){: style="max-width: 120px; height: auto;"}
 ```
-flatpak -y --user install --from https://kolabnow.com/kube/flatpak/com.kolabnow.kube.flatpakref
+flatpak -y --user install --from https://files.kube-project.com/kolabnowflatpak/com.kolabnow.kube.flatpakref
 flatpak run com.kolabnow.kube
 ```
 * [Kolab Now Mac OS image](https://files.kube-project.com/kube-kolabnow.dmg) ![](http://cmollekopf.hopto.org:8010/badges/kolabnowosxbuild.svg){: style="max-width: 120px; height: auto;"}
