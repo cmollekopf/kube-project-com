@@ -30,7 +30,7 @@ The Kube UI is split up into views that each try to help with a particular workf
 See also [https://phabricator.kde.org/T6029](https://phabricator.kde.org/T6029).
 
 ### Storage
-As primary storage we're using the [LMDB](https://symas.com/products/lightning-memory-mapped-database/) memory-mapped key-value store.
+As primary storage we're using the [LMDB](https://symas.com/lmdb/) memory-mapped key-value store.
 It fits our bill nicely because it supports multi-process, has superb read-performance while maintaining a good write-performance as well.
 Because the storage is multi-process the clients can read directly from disk resulting in lightning fast startup times.
 
@@ -74,7 +74,7 @@ All planning and issue tracking is done on the kde phabricator instance, so that
 
 The development team has weekly online meetings, so if you'd like to get involved there please write a mail to the mailinglist and we'll invite you (It's also fine if you would just like to join for a couple of meetings and see how things go, no pressure ;-) ).
 
-* [PIM mailing list](kde-pim@kde.org)
+* [PIM mailing list](mailto:kde-pim@kde.org)
 * [Kube Phabricator](https://phabricator.kde.org/tag/kube/)
 * [Sink Phabricator](https://phabricator.kde.org/tag/sink/)
 * [Junior Jobs](https://phabricator.kde.org/project/board/173/)
