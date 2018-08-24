@@ -26,7 +26,7 @@ flatpak run org.kde.kube
 ```
 * [Archlinux](https://www.archlinux.org/packages/community/x86_64/kube/):
 ```
-yaourt -S kube
+pacman -S kube
 ```
 * Gentoo:
 ```
