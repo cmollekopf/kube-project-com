@@ -55,7 +55,7 @@ nav-menu: no
     <article>
             <header class="major">
                     <h3><a href="features.html" class="link">Simple</a></h3>
-                    <p>Enter your credentials and your good to go. No configuration required.</p>
+                    <p>Enter your credentials and you're good to go. No configuration required.</p>
             </header>
     </article>
     <article>
