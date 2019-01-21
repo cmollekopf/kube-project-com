@@ -37,7 +37,7 @@ emerge -qa kube
 
 ### Kube for Kolab Now
 
-Kube for [Kolab Now](https://kolabnow.com) offers you the simplest setup possible for [Kolab Now](https://kolabnow.com) users. Enter your credentials, done.
+Kube for [Kolab Now](https://kolabnow.com) offers you the simplest setup possible for [Kolab Now](https://kolabnow.com) users. Enter your credentials, done. Please note that Kube is not yet officially supported so your mileage may vary.
 
 * Install the Kolab Now edition (Kolab Now exclusive) with the [Kolab Now flatpak](https://blogs.kolabnow.com/2017/09/27/kube-for-kolab-now): ![](http://cmollekopf.my.to:8010/badges/kolabnowflatpak.svg){: style="max-width: 120px; height: auto;"}
 ```
