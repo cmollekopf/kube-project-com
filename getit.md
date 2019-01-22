@@ -19,11 +19,6 @@ A nightly updated [Mac OS image](https://files.kube-project.com/kube.dmg) is ava
 ### Other sources
 Kube is available for a variety of distributions.
 
-* Flatpak based on the KDE runtime, periodically updated from the develop branch.:
-```
-flatpak -y --user install --from https://kube.kde.org/files/org.kde.kube.flatpakref
-flatpak run org.kde.kube
-```
 * [Archlinux](https://www.archlinux.org/packages/community/x86_64/kube/):
 ```
 pacman -S kube
