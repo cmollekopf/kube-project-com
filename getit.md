@@ -7,7 +7,7 @@ nav-menu: yes
 Try the latest and greatest from the Kube team.
 
 ## For Linux ![](http://cmollekopf.my.to:8010/badges/nightlyflatpak.svg){: style="max-width: 120px; height: auto;"}
-Flatpak is recommended way to try the latest version of Kube:
+Flatpak is the recommended way to try the latest version of Kube:
 ```
 flatpak -y --user install --from https://files.kube-project.com/flatpak/com.kubeproject.kube.flatpakref
 flatpak run com.kubeproject.kube
