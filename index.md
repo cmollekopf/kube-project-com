@@ -69,7 +69,7 @@ nav-menu: no
 <section id="stuff">
     <div class="inner">
         <header class="major">
-            <h2>Latest news</h2>
+            <h2>More information</h2>
         </header>
         <p>
         Blog Posts from the community:
@@ -77,19 +77,6 @@ nav-menu: no
         <br/> <a href="https://cmollekopf.wordpress.com/tag/kube/">by Christian Mollekopf</a>
         <br/> <a href="https://mbohlender.wordpress.com">by Michael Bohlender</a>
         </p>
-        <table>
-            {% for post in site.posts limit:3 %}
-            <tr>
-                <td>{{ post.date | date_to_string }}&nbsp;&nbsp;&nbsp;</td>
-                <td><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></td>
-            </tr>
-            {% endfor %}
-
-            <tr>
-                <td></td>
-                <td><a href="news.html">More...</a></td>
-            </tr>
-        </table>
     </div>
 </section>
 
