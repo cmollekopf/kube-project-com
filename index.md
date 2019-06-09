@@ -28,7 +28,18 @@ nav-menu: no
     <div class="inner">
         <p>"Kube is a modern communication and collaboration client built to just work. It provides online and offline access to all your mail, contacts and calendars. With a strong focus on usability, the team works with designers and UX experts from the ground up, to build a product that is not only visually appealing but also a joy to use."</p>
 
-        <img style="width: 100%; height: auto;" src="assets/images/kube_main.png" alt="" />
+        <div class="flexslider">
+            <ul class="slides">
+                {% for image in site.data.carousel %}
+                <li>
+                    <a href="{{ site.url}}{{ image.url }}">
+                        <img src="{{ image.url }}">
+                        <p class="flex-caption">{{ image.caption }}</p>
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
 
         <p>We are an active project spearheaded by Kolab Systems in collaboration with the KDE community. We initially focus on email and calendaring only to ensure that the core features of the application are in place before going forward.</p>
         <ul class="actions">
