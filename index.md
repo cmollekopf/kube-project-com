@@ -32,7 +32,7 @@ nav-menu: no
             <ul class="slides">
                 {% for image in site.data.carousel %}
                 <li>
-                    <a href="{{ site.url}}{{ image.url }}">
+                    <a href="{{ image.url }}">
                         <img src="{{ image.url }}">
                         <p class="flex-caption">{{ image.caption }}</p>
                     </a>
