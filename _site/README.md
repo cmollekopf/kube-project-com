@@ -16,7 +16,7 @@ The website can be tested locally with 'jekyll serve'. Note that this will alter
 
 # Updating the CSS
 
-Do not touch css directly. All CSS is generated using sass. Colors can e.g. be modified in assets/sass/libs/_vars.scss, to regenerate run "sass sassets/ass/main.scss:assets/css/main.css" the root directory.
+Do not touch css directly. All CSS is generated using sass. Colors can e.g. be modified in assets/sass/libs/_vars.scss, to regenerate run "sass assets/sass/main.scss:assets/css/main.css" the root directory.
 
 
 # Forty - Jekyll Theme
